@@ -20,24 +20,39 @@ const PostPage = ({
         <title>Our Mother Earth | {slug}</title>
       </Head>
       <span onClick={() => router.back()}>
-        <a className="btn btn-back">Go Back</a>
-      </span>
-      <div className="card-page">
-        <h1 className="slug-post-title">{title}</h1>
-        <div className="post-date">
-          <span className="span-published">Published on</span>{" "}
-          {dayjs(date).format("MMMM D, YYYY")}
-        </div>
-        <Image height={600} width={1050} src={cover_image} alt={title} />
-        <div className="post-body">
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-        </div>
-      </div>
-      <span onClick={() => router.back()}>
-        <a style={{ float: "right" }} className="btn btn-back">
+        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1.25rem]">
           Go Back
         </a>
       </span>
+      <div className="py-[.9375rem] px-[1.875rem]">
+        <h1 className="my-[.625rem] text-[2rem] mobile:text-[1rem] tablet:text-[1.5rem] desktop:text-[2rem] font-bold">
+          {title}
+        </h1>
+        <div className="mb-[1.25rem] py-1">
+          <span className="text-black/50">Published on</span>{" "}
+          {dayjs(date).format("MMMM D, YYYY")}
+        </div>
+        <div className="mobile:w-[25rem] tablet:w-[50rem] desktop:w-[60rem] text-center">
+          <Image
+            height="426px"
+            width="600px"
+            layout="intrinsic"
+            src={cover_image}
+            alt={title}
+          />
+        </div>
+        <div className="post-body mobile:w-[25rem] tablet:w-[48rem] desktop:w-[60rem]">
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <span onClick={() => router.back()}>
+            <a
+              style={{ float: "right" }}
+              className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1.25rem]"
+            >
+              Go Back
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   );
 };

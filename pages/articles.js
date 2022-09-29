@@ -7,8 +7,10 @@ import { sortByDate } from "../utils";
 const articles = ({ posts }) => {
   return (
     <>
-      <h1 className="page-title">Our Mother Earth Articles</h1>
-      <div className="article-posts">
+      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem]">
+        Our Mother Earth Articles
+      </h1>
+      <div className="w-[60%] my-[1.25rem] mx-auto">
         {posts.map((post, index) => (
           <Articles key={index} id={index} post={post} />
         ))}
