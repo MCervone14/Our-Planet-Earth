@@ -9,7 +9,7 @@ const Post = ({ post }) => {
         {post.frontmatter.title}
       </h3>
       <div className="mb-[1.25rem] py-1">
-        <span className="text-black/50 ml-[.625rem]">Published </span>{" "}
+        <span className="text-black/50">Published </span>{" "}
         {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
       </div>
       <Image
