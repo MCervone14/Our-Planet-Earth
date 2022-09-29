@@ -8,7 +8,7 @@ const authors = () => {
       </h1>
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem]  gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
         <Image
-          src="/../public/images/TomPhoto.png"
+          src="/images/TomPhoto.png"
           alt="Lead Author of Our Mother Earth Articles"
           width="250px"
           height="250px"
@@ -16,7 +16,7 @@ const authors = () => {
           objectPosition="top"
           layout="intrinsic"
           placeholder="blur"
-          blurDataURL="/../public/images/TomPhoto.png"
+          blurDataURL="/images/TomPhoto.png"
           style={{ borderRadius: "50%" }}
         />
         <p className="w-[60%]">
@@ -27,7 +27,7 @@ const authors = () => {
       </div>
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
         <Image
-          src="/../public/images/MaureenPhoto.JPG"
+          src="/images/MaureenPhoto.JPG"
           alt="Author of Our Mother Earth Articles"
           width="250px"
           height="250px"
@@ -35,7 +35,7 @@ const authors = () => {
           objectPosition="center"
           layout="intrinsic"
           placeholder="blur"
-          blurDataURL="/../public/images/MaureenPhoto.JPG"
+          blurDataURL="/images/MaureenPhoto.JPG"
           style={{
             borderRadius: "50%",
           }}
@@ -50,7 +50,7 @@ const authors = () => {
       </div>
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row ">
         <Image
-          src="/../public/images/Tim-Lilley-HS.jpg"
+          src="/images/Tim-Lilley-HS.jpg"
           alt="Author of Our Mother Earth Articles"
           width="250px"
           height="250px"
@@ -58,7 +58,7 @@ const authors = () => {
           objectPosition="top"
           layout="intrinsic"
           placeholder="blur"
-          blurDataURL="/../public/images/Tim-Lilley-HS.jpg"
+          blurDataURL="/images/Tim-Lilley-HS.jpg"
           style={{ borderRadius: "50%" }}
         />
         <p className="w-[60%]">
@@ -71,7 +71,7 @@ const authors = () => {
       </div>
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
         <Image
-          src="/../public/images/NicolePhoto.png"
+          src="/images/NicolePhoto.png"
           alt="Author of Our Mother Earth Articles"
           width="250px"
           height="250px"
@@ -79,7 +79,7 @@ const authors = () => {
           objectPosition="50% 20%"
           layout="intrinsic"
           placeholder="blur"
-          blurDataURL="/../public/images/NicolePhoto.png"
+          blurDataURL="/images/NicolePhoto.png"
           style={{
             borderRadius: "50%",
           }}
