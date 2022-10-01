@@ -7,10 +7,10 @@ import { sortByDate } from "../utils";
 const articles = ({ posts }) => {
   return (
     <>
-      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem]">
+      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem]">
         Our Mother Earth Articles
       </h1>
-      <div className="w-[60%] my-[1.25rem] mx-auto">
+      <div className="w-[60%] my-[1.25rem] mx-auto mobile:w-[100%]">
         {posts.map((post, index) => (
           <Articles key={index} id={index} post={post} />
         ))}

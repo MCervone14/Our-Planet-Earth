@@ -7,9 +7,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      mobile: "450px",
-      tablet: "850px",
-      desktop: "1325px",
+      mobile: { min: "360px", max: "767px" },
+      tablet: { min: "768px", max: "1023px" },
+      laptop: { min: "1024px", max: "1374px" },
+      desktop: "1375px",
     },
     extend: {
       boxShadow: {

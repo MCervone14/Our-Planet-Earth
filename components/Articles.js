@@ -17,13 +17,13 @@ const Articles = ({ post, id }) => {
           />
         </div>
         <div>
-          <h3 className="article-post-title title mobile:text-[1rem] tablet:text-[1.5rem] desktop:text-[2-rem]">
+          <h3 className="article-post-title title mobile:text-[1rem] tablet:text-[1.5rem] laptop:text-[2rem] desktop:text-[2rem]">
             <span className="mx-[.625rem] mt-[1.125rem] text-black/[.3]">
               #{id + 1}.
             </span>{" "}
             {post.frontmatter.title}
           </h3>
-          <div className="post-date">
+          <div>
             <span className="text-black/50 ml-[.625rem]">Published </span>
             {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
           </div>

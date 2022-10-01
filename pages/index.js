@@ -15,17 +15,17 @@ export default function Home({ posts }) {
       <Head>
         <title>Our Mother Earth | Home</title>
       </Head>
-      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem]">
+      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6rem] mobile:text-[3rem]">
         Our Mother Earth
       </h1>
-      <h4 className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center">
+      <h4 className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
         Our journey to care for our planet earth!
       </h4>
       <div className="m-auto flex flex-col">
-        <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem]">
+        <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem] mobile:ml-0 mobile:text-[3rem]">
           Featured Articles
         </h2>
-        <div className="mx-[9rem] mt-[15px] grid grid-cols-3 gap-[3.125rem] mobile:grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3">
+        <div className="mx-[9rem] mt-[15px] grid grid-cols-3 gap-[3.125rem] mobile:grid-cols-1 mobile:ml-0 mobile:mr-auto tablet:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3">
           {posts
             .map((post, index) => (
               <Post key={index} post={post} readingTime={readingTime} />
@@ -33,10 +33,10 @@ export default function Home({ posts }) {
             .slice(0, 3)}
         </div>
       </div>
-      <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem]">
+      <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem] mobile:text-[3rem] mobile:ml-0">
         Recent Articles
       </h2>
-      <div className="grid grid-cols-3 gap-[3.125rem] mt-[.9375rem] tablet:grid-cols-2 mobile:grid-cols-1 desktop:grid-cols-3 mx-[9rem]">
+      <div className="grid grid-cols-3 gap-[3.125rem] mt-[.9375rem] mobile:m-0 tablet:grid-cols-1 mobile:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 mx-[9rem]">
         {posts
           .map((post, index) => <Post key={index} post={post} />)
           .slice(3, 9)}
