@@ -13,10 +13,10 @@ export default function Home({ posts }) {
   return (
     <div className="container">
       <Head>
-        <title>Our Mother Earth | Home</title>
+        <title>Our Planet Earth | Home</title>
       </Head>
-      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6rem] mobile:text-[3rem]">
-        Our Mother Earth
+      <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem]">
+        Our Planet Earth
       </h1>
       <h4 className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
         Our journey to care for our planet earth!

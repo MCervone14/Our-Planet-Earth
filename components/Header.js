@@ -1,18 +1,17 @@
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
-import Head from "next/head";
 
 const Header = () => {
   return (
-    <header className="bg-[steelblue] flex px-[2rem] text-white p-[.3125rem] mb-[1rem]">
+    <header className="bg-[steelblue] flex text-white p-[.3125rem] px-[15rem]">
       <div className="mt-[.625rem] w-full">
         <Link href="/" passHref>
           <h2 className="text-[2rem] cursor-pointer font-[Tangerine] hover:text-[gold] mobile:hidden">
-            Our Mother Earth
+            Our Planet Earth
           </h2>
         </Link>
       </div>
-      <div className="flex gap-[5rem] items-center">
+      <nav className="flex gap-[5rem] items-center">
         <Link href="/" passHref>
           <h5 className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden ">
             Home
@@ -28,7 +27,7 @@ const Header = () => {
             Team
           </h5>
         </Link>
-        <div className="mobile:visible tablet:visible laptop:hidden desktop:hidden">
+        <div className="mobile:visible mobile:mx-auto tablet:visible laptop:hidden desktop:hidden">
           <Dropdown
             label="Menu"
             style={{
@@ -54,7 +53,7 @@ const Header = () => {
             </Dropdown.Item>
           </Dropdown>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "dayjs": "^1.11.5",
@@ -24,6 +26,7 @@
     "autoprefixer": "^10.4.12",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
+    "husky": "^8.0.2",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }

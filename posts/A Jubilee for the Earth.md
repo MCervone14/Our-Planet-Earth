@@ -1,8 +1,7 @@
 ---
 title: "A ‘Jubilee for the Earth’"
 date: "2020-11-20"
-excerpt: "
-Did you know that in 2015, Pope Francis published an encyclical On Care for Our Common
+excerpt: "Did you know that in 2015, Pope Francis published an encyclical On Care for Our Common
 Home “Laudato Si’?” An encyclical is one of the highest forms of communication by a pope and
 usually deals with some aspect of Catholic teaching. “Laudato Si’” is an appeal for “every person
 living on this planet” to enter into dialogue with him on the future of our Mother Earth."

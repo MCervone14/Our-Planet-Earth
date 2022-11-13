@@ -15,12 +15,12 @@ const PostPage = ({
 }) => {
   const router = useRouter();
   return (
-    <div className="post-container">
+    <div className="post-container mobile:w-fit">
       <Head>
-        <title>Our Mother Earth | {slug}</title>
+        <title>Our Planet Earth | {slug}</title>
       </Head>
       <span onClick={() => router.back()}>
-        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1.25rem]">
+        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1rem] mt-[2rem]">
           Go Back
         </a>
       </span>
@@ -34,8 +34,9 @@ const PostPage = ({
         </div>
         <div className="mobile:w-[25rem] tablet:w-[50rem] desktop:w-[60rem] text-center">
           <Image
-            height="426px"
-            width="600px"
+            objectFit="cover"
+            height="600"
+            width="960"
             layout="intrinsic"
             src={cover_image}
             alt={title}

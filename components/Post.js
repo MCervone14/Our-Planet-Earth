@@ -12,15 +12,16 @@ const Post = ({ post }) => {
         <span className="text-black/50">Published </span>{" "}
         {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
       </div>
-      <Image
-        objectFit="cover"
-        height="500"
-        width="800"
-        layout="responsive"
-        src={post.frontmatter.cover_image}
-        alt={post.frontmatter.title}
-      />
-
+      <div className="block">
+        <Image
+          objectFit="cover"
+          height="500"
+          width="800"
+          layout="responsive"
+          src={post.frontmatter.cover_image}
+          alt={post.frontmatter.title}
+        />
+      </div>
       <p className="card-text">{post.frontmatter.excerpt}</p>
 
       <Link href={`/article/${post.slug}`}>

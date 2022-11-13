@@ -3,7 +3,7 @@ import Image from "next/image";
 const authors = () => {
   return (
     <>
-      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[4rem] mobile:text-[3rem]">
+      <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[4rem] mobile:text-[3rem]">
         Meet The Team
       </h1>
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1rem]  gap-[2rem] mobile:flex-col tablet:flex-col desktop:flex-row">
@@ -48,7 +48,7 @@ const authors = () => {
           poor.
         </p>
       </div>
-      <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row ">
+      {/* <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row ">
         <Image
           src="/images/Tim-Lilley-HS.jpg"
           alt="Author of Our Mother Earth Articles"
@@ -68,7 +68,7 @@ const authors = () => {
           other week, many of which can be found
           <a href="https://evdiomessage.org/columns/"> here</a>.
         </p>
-      </div>
+      </div> */}
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
         <Image
           src="/images/NicolePhoto.png"

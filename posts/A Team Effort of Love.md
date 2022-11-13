@@ -74,7 +74,7 @@ Please consider any of the following:
   www.facebook.com/tristatecreationcare).
 - Join the statewide network of Indiana Catholics for Creation (Visit:
   www.ourcommonhome.org).
-- Join the Global Catholic Climate Movement (Visit: www.catholicclimatemovement.global).
+- Join the Global Catholic Climate Movement.
 - Encourage and promote a “green team” at your parish.
 - Be a role model. Pick up litter, safely dispose of chemicals, plant trees, garden, compost,
   reduce, recycle and reuse.
