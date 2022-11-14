@@ -33,7 +33,5 @@ export default function handler(req, res) {
       date.toLowerCase().indexOf(query) !== -1
   );
 
-  console.log(results);
-
   res.status(200).json(results);
 }
