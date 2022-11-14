@@ -6,6 +6,10 @@ const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   useEffect(() => {
     const getResults = async () => {
       if (searchTerm === "") {
@@ -23,7 +27,7 @@ const Search = () => {
     <div className="relative bg-[steelblue]/20 p-4">
       <div className="container mx-auto flex items-center justify-center mobile:justify-start tablet:justify-end laptop:justify-end desktop:justify-end">
         <div className="relative text-gray-600 w-72">
-          <form>
+          <form onSubmit={handleSubmit}>
             {" "}
             <input
               type="search"
