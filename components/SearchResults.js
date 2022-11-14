@@ -2,7 +2,6 @@ import React from "react";
 import Articles from "./Articles";
 
 const SearchResults = ({ results }) => {
-  console.log(results);
   if (results.length === 0) return <></>;
   return (
     <div className="absolute h-[40rem] overflow-x-hidden overflow-y-scroll top-20 right-0 tablet:right-10 z-10 border-4 border-gray-500 bg-white text-black w-4/12 tablet:w-6/12 rounded-2xl">

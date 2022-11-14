@@ -1,9 +1,8 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import dayjs from "dayjs";
 
-export default function handler(req, res) {
+export default (req, res) => {
   let posts;
 
   if (process.env.NODE_ENV === "production") {
@@ -37,4 +36,4 @@ export default function handler(req, res) {
   console.log(results);
 
   res.status(200).json(results);
-}
+};
