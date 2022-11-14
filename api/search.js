@@ -2,11 +2,11 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-export default (req, res) => {
+export default function handler(req, res) {
   let posts;
 
   if (process.env.NODE_ENV === "production") {
-    posts = require("../../cache/data").posts;
+    posts = require("../cache/data").posts;
   } else {
     const files = fs.readdirSync(path.join("posts"));
 
@@ -36,4 +36,4 @@ export default (req, res) => {
   console.log(results);
 
   res.status(200).json(results);
-};
+}
