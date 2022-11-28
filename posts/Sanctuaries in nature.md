@@ -5,12 +5,13 @@ excerpt: "A nature sanctuary is a protected area for animals, plants and natural
 we have three National Wildlife Refuges – Muscatatuck, Patoka River and Big Oaks. In
 Kentucky, there are two in our region – Green River and Clarks River. Also, we have many other
 parks, preserves, and natural areas."
+category: "Simple Lifestyles"
 cover_image: "/images/posts/Sanctuaries in nature.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

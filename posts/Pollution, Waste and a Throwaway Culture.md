@@ -7,12 +7,13 @@ climate too? For instance, greenhouse gases, like carbon dioxide, methane, and n
 absorb heat, and increase air and ocean temperatures resulting in global warming. It is global
 warming ― warmer temperatures, melting glaciers, and increasing sea levels ― that causes
 climate change, which forces people and animals from their homes."
+category: "Simple Lifestyles"
 cover_image: "/images/posts/Pollution, Waste and a Throwaway Culture.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:** _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for
 Our Common Home, Laudato Si’_

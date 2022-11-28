@@ -6,12 +6,13 @@ fossil fuels for electricity, heat and transportation (U.S. Environmental Protec
 cause climate change by trapping heat, and have far-ranging environmental and health effects
 (National Geographic, Carbon dioxide levels are at a record high. Here’s what you need to know.
 Christina Nunez, 5/13/19). A simple way to help Our Mother Earth is to become carbon neutral."
+category: "Cry of the Earth"
 cover_image: "/images/posts/Carbon Neutrality.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

@@ -1,19 +1,27 @@
+import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import Articles from "../components/Articles";
-import { sortByDate } from "../utils";
+import Articles from "../../components/Articles";
+import CategoryList from "../../components/CategoryList";
+import { sortByDate } from "../../utils";
 
-const articles = ({ posts }) => {
+const articles = ({ posts, categories }) => {
   return (
     <>
+      <Head>
+        <title>Our Planet Earth | Articles</title>
+      </Head>
       <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem]">
         Our Planet Earth Articles
       </h1>
-      <div className="w-[60%] my-[1.25rem] mx-auto mobile:w-[100%]">
-        {posts.map((post, index) => (
-          <Articles key={index} id={index} post={post} />
-        ))}
+      <div className="flex ">
+        <div className="w-[60%] p-10 my-[1.25rem] mx-auto mobile:w-[100%]">
+          {posts.map((post, index) => (
+            <Articles key={index} id={index} post={post} />
+          ))}
+        </div>
+        <CategoryList categories={categories} />
       </div>
     </>
   );
@@ -40,9 +48,13 @@ export async function getStaticProps() {
     };
   });
 
+  const categories = posts.map((post) => post.frontmatter.category);
+  const uniqueCategories = [...new Set(categories)];
+
   return {
     props: {
       posts: posts.sort(sortByDate),
+      categories: uniqueCategories.sort(),
     },
   };
 }

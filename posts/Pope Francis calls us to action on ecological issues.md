@@ -7,12 +7,13 @@ On Care for our Common Home?” Five years later, he announced an Anniversary Ye
 May 24, 2020, to May 24, 2021, where he encourages a new way of living. During this
 Anniversary Year, Pope Francis established seven public commitment groups and seven platform
 goals."
+category: "Cry of the Poor"
 cover_image: "/images/posts/Pope Francis calls us to action on ecological issues.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

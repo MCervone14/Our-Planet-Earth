@@ -7,12 +7,13 @@ Act, which required some federal agencies to take part in certain regulations, p
 licensing, and permitting? The NEPA has been a blessing for 50 years because it requires
 projects to realize their impacts on the environment, and be held accountable. It was developed
 to avoid, minimize, and mitigate/lessen our impacts upon Earth’s air, water and soil."
+category: "Ecological Education"
 cover_image: "/images/posts/A Team Effort of Love.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:** _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for
 Our Common Home, Laudato Si’_

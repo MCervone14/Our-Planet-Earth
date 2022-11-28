@@ -5,12 +5,13 @@ excerpt: "
 Did you know that, through years of soil degradation, nitrogen, phosphorus and sediments have
 run off into rivers that enter the Mississippi River creating a dead zone in the Gulf of Mexico the
 size of New Jersey (The Gulf of Mexico Dead Zone - SERC – Carleton, 10/15/2019)?"
+category: "Cry of the Earth"
 cover_image: "/images/posts/Healthy soils reduce flooding, global warming and run-off.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

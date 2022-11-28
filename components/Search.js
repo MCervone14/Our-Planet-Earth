@@ -1,13 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
 import SearchResults from "./SearchResults";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+  const [isShowing, setIsShowing] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleFocus = (e) => {
+    setIsShowing((prev) => !prev);
+  };
+
+  const handleBlur = (e) => {
+    setIsShowing(false);
   };
 
   useEffect(() => {
@@ -24,17 +29,18 @@ const Search = () => {
   }, [searchTerm]);
 
   return (
-    <div className="relative bg-[steelblue]/20 p-4">
-      <div className="container mx-auto flex items-center justify-center mobile:justify-start tablet:justify-end laptop:justify-end desktop:justify-end">
+    <div className="bg-[steelblue]/20 p-4 sticky top-0 z-10">
+      <div className="container mr-[20rem] flex mobile:justify-start tablet:justify-end laptop:justify-end desktop:justify-end">
         <div className="relative text-gray-600 w-72">
-          <form onSubmit={handleSubmit}>
+          <form>
             {" "}
             <input
-              type="search"
               name="search"
               id="search"
-              className="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-72"
+              className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72"
               value={searchTerm}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search Articles..."
               autoComplete="off"
@@ -43,7 +49,11 @@ const Search = () => {
           </form>
         </div>
       </div>
-      <SearchResults results={searchResults} />
+      <SearchResults
+        results={searchResults}
+        searchTerm={searchTerm}
+        isShowing={isShowing}
+      />
     </div>
   );
 };

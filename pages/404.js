@@ -1,9 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const PageNotFound = () => {
   return (
     <div>
+      <Head>
+        <title>Our Planet Earth | 404 Error</title>
+      </Head>
       <h1 className="mt-[15rem] text-[10rem] text-center font-[Tangerine] text-[steelblue]">
         Our Planet Earth
       </h1>

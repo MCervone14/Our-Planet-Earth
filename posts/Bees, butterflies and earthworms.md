@@ -6,12 +6,13 @@ song “Blowin’ in the Wind.” In it, they sing, “Where have all the flower
 lyrics could easily become, “Where have all the bees, butterflies and earthworms gone?” These
 animals may be considered sentinel species used to detect risks to humans, very much like a
 canary sent into a coal mine. If it died, that was an early warning."
+category: "Ecological Education"
 cover_image: "/images/posts/Bees, butterflies and earthworms.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

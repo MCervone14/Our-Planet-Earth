@@ -8,12 +8,13 @@ conservation threats in Indiana and identifies needed actions.” Did you know l
 the No. 1 cause for loss of species? For example, in the Amazon, the world’s largest reservoir of
 biodiversity, two-thirds of the species have lost habitat to fire and deforestation (Georgina
 Gustin, 9/1/2021, Inside Climate News)."
+category: "Ecological Spirituality"
 cover_image: "/images/posts/Species of greatest conservation need.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

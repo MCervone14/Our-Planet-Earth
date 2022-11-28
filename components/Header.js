@@ -1,14 +1,24 @@
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
+import Head from "next/head";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <header className="bg-[steelblue] flex text-white p-[.3125rem] px-[15rem]">
+      <Head>
+        <link rel="icon" type="image/x-icon" href="/images/planet-16.ico" />
+      </Head>
       <div className="mt-[.625rem] w-full">
         <Link href="/" passHref>
-          <h2 className="text-[2rem] cursor-pointer font-[Tangerine] hover:text-[gold] mobile:hidden">
-            Our Planet Earth
-          </h2>
+          <Image
+            src="/images/logo.svg"
+            layout="intrinsic"
+            width="200px"
+            height="100px"
+            alt="logo"
+            className="text-[2rem] cursor-pointer font-[Tangerine] mobile:hidden"
+          />
         </Link>
       </div>
       <nav className="flex gap-[5rem] items-center">

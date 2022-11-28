@@ -5,12 +5,13 @@ excerpt: "
 With much gratitude to Bishop Joseph M. Siegel, publisher of The Message, and Tim Lilley, editor, we
 celebrate two years of writing Our Mother Earth monthly. Every column is available by visiting
 https://evdiomessage.org/our-mother-earth/. Titles and dates for each are shown below."
+category: "Community Involvement"
 cover_image: "/images/posts/Two-year anniversary of Our Mother Earth columns in The Message.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

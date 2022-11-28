@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
-import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
@@ -10,7 +9,7 @@ import dayjs from "dayjs";
 
 const PostPage = ({
   slug,
-  frontmatter: { title, date, cover_image },
+  frontmatter: { title, category, date, cover_image },
   content,
 }) => {
   const router = useRouter();

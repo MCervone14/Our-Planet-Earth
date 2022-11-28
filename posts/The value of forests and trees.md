@@ -6,12 +6,13 @@ Did you know that, in 1800, Indiana had over 83% of its land area in forests? An
 forests made up less than 7% (Sam Carman, IDNR, Div. of Forestry)? Also, did you know some
 city neighborhoods have few, if any trees? We urge you to take to heart Pope Francis’ wisdom
 and his love for trees – and the blessings they give us."
+category: "Ecological Economics"
 cover_image: "/images/posts/The value of forests and trees.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:** _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for
 Our Common Home, Laudato Si’_

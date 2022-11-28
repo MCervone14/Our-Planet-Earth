@@ -1,8 +1,12 @@
 import Image from "next/image";
+import Head from "next/head";
 
 const authors = () => {
   return (
     <>
+      <Head>
+        <title>Our Planet Earth | Authors</title>
+      </Head>
       <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[4rem] mobile:text-[3rem]">
         Meet The Team
       </h1>
@@ -48,27 +52,6 @@ const authors = () => {
           poor.
         </p>
       </div>
-      {/* <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row ">
-        <Image
-          src="/images/Tim-Lilley-HS.jpg"
-          alt="Author of Our Mother Earth Articles"
-          width="250px"
-          height="250px"
-          objectFit="cover"
-          objectPosition="top"
-          layout="intrinsic"
-          placeholder="blur"
-          blurDataURL="/images/Tim-Lilley-HS.jpg"
-          style={{ borderRadius: "50%" }}
-        />
-        <p className="w-[60%] tablet:w-[100%] mobile:w-[100%]">
-          Tim Lilley is the director of communications for the Diocese of
-          Evansville and editor of The Message. He has edited each of these
-          articles in Our Mother Earth. In addition, he publishes articles every
-          other week, many of which can be found
-          <a href="https://evdiomessage.org/columns/"> here</a>.
-        </p>
-      </div> */}
       <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
         <Image
           src="/images/NicolePhoto.png"

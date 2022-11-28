@@ -5,12 +5,13 @@ excerpt: "Did you know that in 2015, Pope Francis published an encyclical On Car
 Home “Laudato Si’?” An encyclical is one of the highest forms of communication by a pope and
 usually deals with some aspect of Catholic teaching. “Laudato Si’” is an appeal for “every person
 living on this planet” to enter into dialogue with him on the future of our Mother Earth."
+category: "Ecological Education"
 cover_image: "/images/posts/A Jubilee for the Earth.jpg"
 ---
 
 By Deacon Tom Cervone, Ph.D.; Sister Maureen Houlihan, D.C.; and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **\_Editor’s note:** \_This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for
 Our Common Home, Laudato Si’\_\_

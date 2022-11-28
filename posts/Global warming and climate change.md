@@ -5,12 +5,13 @@ excerpt: "In previous articles, we’ve highlighted Pope Francis’ efforts in �
 many ecological principles. But there’s more, such as melting of the Earth’s permafrost; melting
 of glaciers and icebergs; and a reduction in albedo (reflectivity of the sun’s rays) by snow
 covered areas in the world."
+category: "Cry of the Poor"
 cover_image: "/images/posts/Global warming and climate change.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

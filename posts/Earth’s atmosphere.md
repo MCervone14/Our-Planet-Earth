@@ -6,12 +6,13 @@ sunlight striking (heating) the Earth? It’s so glorious and vast from Earth; b
 very thin. Do you know it’s our atmosphere that contains oxygen for us to breathe, and it is our
 security blanket protecting us from ultraviolet rays? If we had no atmosphere, there would be no
 life. The atmosphere even allows us to hear."
+category: "Cry of the Poor"
 cover_image: "/images/posts/Earth’s atmosphere.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

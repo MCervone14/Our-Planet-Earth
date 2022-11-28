@@ -5,12 +5,13 @@ excerpt: "“On Sept. 5, 2021, more than 200 medical journals released an unprec
 urged world leaders to act. The science is unequivocal, they write. A global increase of 1.5⁰ C
 above the pre-industrial average and the continued loss of biodiversity risk catastrophic harm to
 health” (Amy McKeever, National Geographic, 9/9/21)."
+category: "Community Involvement"
 cover_image: "/images/posts/Good news about Pope Francis’ ‘Laudato Si’’.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

@@ -6,12 +6,13 @@ Grasslands go by different names. In the U.S. Midwest, they’re called prairies
 America, pampas; in Central Eurasia, steppes; and in Africa, savannas. What they all have in
 common are perennial, bunch grasses (little bluestem, big bluestem, Indiangrass) and
 wildflowers (milkweed, coneflowers, sunflowers)."
+category: "Ecological Economics"
 cover_image: "/images/posts/Grasslands, pollinators, and our health.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

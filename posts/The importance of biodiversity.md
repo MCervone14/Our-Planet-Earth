@@ -8,12 +8,13 @@ and biodiversity holds a treasure of genes that can offer many possibilities, es
 “humans are more at risk from diseases as biodiversity disappears” (John Platt, 12/7/10,
 Scientific American). So, we urge you to take to heart Pope Francis’ wisdom in his Chapter 1:
 Loss of Biodiversity."
+category: "Cry of the Earth"
 cover_image: "/images/posts/The importance of biodiversity.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:** _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for
 Our Common Home, Laudato Si’_

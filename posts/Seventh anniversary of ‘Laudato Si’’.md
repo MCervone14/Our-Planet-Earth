@@ -6,12 +6,13 @@ use them to ask questions like, “Have we listened to Pope Francis, and is the 
 really increasing?” Compared with a decade ago, more Americans say protecting the environment
 and dealing with global climate change should be top priorities (PEW Research Center, Funk and
 Kennedy, How Americans see climate change and the environment in seven charts, 4/21/20)."
+category: "Community Involvement"
 cover_image: "/images/posts/Seventh anniversary of ‘Laudato Si’’.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common

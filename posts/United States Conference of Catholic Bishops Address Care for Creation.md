@@ -11,12 +11,13 @@ express their concerns and opinions on upcoming legislation. Such investments ar
 meet the Paris Agreement goals to reduce carbon emissions by 50% by 2030. Jose Aguto,
 Executive Director of Catholic Climate Covenant says, “such actions will be a civilizational
 game-changer.”"
+category: "Ecological Spirituality"
 cover_image: "/images/posts/United States Conference of Catholic Bishops Address Care for Creation.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
 
-**Our Mother Earth**
+**Our Planet Earth**
 
 **Editor’s note:**
 _This series takes a deeper look at Pope Francis’ 2015 encyclical ― On Care for Our Common
