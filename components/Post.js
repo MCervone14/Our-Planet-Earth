@@ -11,7 +11,7 @@ const Post = ({ post }) => {
       <h3 className="post-title mobile:text-[1rem] tablet:text-[1rem] laptop:text-[1.25rem] desktop:text-[1.5rem] font-bold">
         {post.frontmatter.title}
       </h3>
-      <div className="mb-[1.25rem] py-1 flex gap-10 laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-row tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
+      <div className="mb-[1.25rem] py-1 flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-row tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
         <div>
           <span className="text-black/50">Published </span>{" "}
           {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
