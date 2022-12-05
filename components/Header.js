@@ -1,43 +1,53 @@
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
-import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const router = useRouter();
   return (
-    <header className="bg-[steelblue] flex text-white p-[.3125rem] px-[15rem]">
-      <Head>
-        <link rel="icon" type="image/x-icon" href="/images/planet-16.ico" />
-      </Head>
-      <div className="mt-[.625rem] w-full">
+    <header className="bg-[steelblue] flex text-white p-[.3125rem] px-[10rem] mobile:px-[3rem]">
+      <div className="mt-[.625rem] w-full flex items-center gap-2 ">
         <Link href="/" passHref>
           <Image
-            src="/images/logo.svg"
-            layout="intrinsic"
-            width="200px"
-            height="100px"
+            src="/images/earth64.png"
+            width={64}
+            height={64}
             alt="logo"
-            className="text-[2rem] cursor-pointer font-[Tangerine] mobile:hidden"
+            className="text-[2rem] cursor-pointer font-[Tangerine] "
           />
+        </Link>
+        <Link
+          href="/"
+          passHref
+          className="font-[Tangerine] text-[1.7rem] hover:text-[gold] cursor-pointer text-white mobile:hidden"
+        >
+          Our Planet Earth
         </Link>
       </div>
       <nav className="flex gap-[5rem] items-center">
-        <Link href="/" passHref>
-          <h5 className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden ">
-            Home
-          </h5>
+        <Link
+          href="/"
+          passHref
+          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+        >
+          Home
         </Link>
-        <Link href="/articles" passHref>
-          <h5 className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden">
-            Articles
-          </h5>
+        <Link
+          href="/articles"
+          passHref
+          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+        >
+          Articles
         </Link>
-        <Link href="/authors" passHref>
-          <h5 className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden">
-            Team
-          </h5>
+        <Link
+          href="/authors"
+          passHref
+          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+        >
+          Team
         </Link>
-        <div className="mobile:visible mobile:mx-auto tablet:visible laptop:hidden desktop:hidden">
+        <div className="mobile:visible mobile:mx-auto tablet:visible laptop:hidden desktop:hidden text-white">
           <Dropdown
             label="Menu"
             style={{
@@ -45,20 +55,30 @@ const Header = () => {
             }}
           >
             <Dropdown.Item>
-              <Link href="/" passHref>
-                <h5 className="cursor-pointer hover:text-[steelblue]">Home</h5>
+              <Link
+                href="/"
+                passHref
+                className="cursor-pointer hover:text-[steelblue]"
+              >
+                Home
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link href="/articles" passHref>
-                <h5 className="cursor-pointer hover:text-[steelblue]">
-                  Articles
-                </h5>
+              <Link
+                href="/articles"
+                passHref
+                className="cursor-pointer hover:text-[steelblue]"
+              >
+                Articles
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
-              <Link href="/authors" passHref>
-                <h5 className="cursor-pointer hover:text-[steelblue]">Team</h5>
+              <Link
+                href="/authors"
+                passHref
+                className="cursor-pointer hover:text-[steelblue]"
+              >
+                Team
               </Link>
             </Dropdown.Item>
           </Dropdown>

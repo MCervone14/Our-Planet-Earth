@@ -1,16 +1,22 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import dayjs from "dayjs";
 
+import CategoryLabel from "./CategoryLabel";
+
 const Post = ({ post }) => {
+  console.log(post);
   return (
     <div className="py-[1.5625rem] px-[1.875rem] rounded-lg shadow-2 bg-white min-w-[20rem]">
       <h3 className="post-title mobile:text-[1rem] tablet:text-[1rem] laptop:text-[1.25rem] desktop:text-[1.5rem] font-bold">
         {post.frontmatter.title}
       </h3>
-      <div className="mb-[1.25rem] py-1">
-        <span className="text-black/50">Published </span>{" "}
-        {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
+      <div className="mb-[1.25rem] py-1 flex gap-10 laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-row tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
+        <div>
+          <span className="text-black/50">Published </span>{" "}
+          {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
+        </div>
+        <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
       </div>
       <div className="block">
         <Image
@@ -24,7 +30,7 @@ const Post = ({ post }) => {
       </div>
       <p className="card-text">{post.frontmatter.excerpt}</p>
 
-      <Link href={`/article/${post.slug}`}>
+      <Link href={`/article/${post.slug}`} legacyBehavior>
         <div>
           <a className="bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold mt-[1rem] hover:text-[gold] ">
             Read More

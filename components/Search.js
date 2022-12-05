@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
-import { FaSearch } from "react-icons/fa";
+import React, { useState, useEffect } from "react";
 import SearchResults from "./SearchResults";
 
 const Search = () => {
@@ -29,25 +28,23 @@ const Search = () => {
   }, [searchTerm]);
 
   return (
-    <div className="bg-[steelblue]/20 p-4 sticky top-0 z-10">
-      <div className="container mr-[20rem] flex mobile:justify-start tablet:justify-end laptop:justify-end desktop:justify-end">
-        <div className="relative text-gray-600 w-72">
-          <form>
-            {" "}
-            <input
-              name="search"
-              id="search"
-              className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72"
-              value={searchTerm}
-              onFocus={handleFocus}
-              onBlur={handleBlur}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search Articles..."
-              autoComplete="off"
-            />
-            <FaSearch className="absolute top-0 right-0 text-black mt-3 mr-4" />
-          </form>
-        </div>
+    <div className="bg-[steelblue]/20 p-4 pr-8 flex  items-center mobile:justify-center tablet:justify-end laptop:justify-end desktop:justify-end">
+      <div className="text-gray-600">
+        <form>
+          {" "}
+          <input
+            type="search"
+            name="search"
+            id="search"
+            className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72"
+            value={searchTerm}
+            onFocus={handleFocus}
+            onBlur={handleBlur}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Search Articles..."
+            autoComplete="off"
+          />
+        </form>
       </div>
       <SearchResults
         results={searchResults}

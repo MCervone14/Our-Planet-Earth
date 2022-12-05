@@ -5,6 +5,7 @@ import path from "path";
 import Articles from "../../components/Articles";
 import CategoryList from "../../components/CategoryList";
 import { sortByDate } from "../../utils";
+import Search from "../../components/Search";
 
 const articles = ({ posts, categories }) => {
   return (
@@ -12,16 +13,20 @@ const articles = ({ posts, categories }) => {
       <Head>
         <title>Our Planet Earth | Articles</title>
       </Head>
+      <Search />
       <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem]">
         Our Planet Earth Articles
       </h1>
-      <div className="flex ">
-        <div className="w-[60%] p-10 my-[1.25rem] mx-auto mobile:w-[100%]">
-          {posts.map((post, index) => (
-            <Articles key={index} id={index} post={post} />
-          ))}
-        </div>
-        <CategoryList categories={categories} />
+      <CategoryList categories={categories} />
+      <div className="w-[60%] p-10 my-[1.25rem] mx-auto mobile:w-[100%]">
+        {posts.map((post, index) => (
+          <Articles
+            key={index}
+            id={index}
+            post={post}
+            categories={categories}
+          />
+        ))}
       </div>
     </>
   );

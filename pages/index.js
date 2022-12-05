@@ -15,7 +15,7 @@ export default function Home({ posts }) {
       <Head>
         <title>Our Planet Earth | Home</title>
       </Head>
-      <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem]">
+      <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem] ">
         Our Planet Earth
       </h1>
       <h4 className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
@@ -41,10 +41,12 @@ export default function Home({ posts }) {
           .map((post, index) => <Post key={index} post={post} />)
           .slice(3, 9)}
       </div>
-      <Link href="/articles" passHref>
-        <h2 className="max-w-fit m-auto bg-[steelblue] text-white border-0 px-[1.5625rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-[gold] my-[3.125rem]">
-          See All Articles
-        </h2>
+      <Link
+        href="/articles"
+        passHref
+        className="flex w-[12rem] text-center m-auto bg-[steelblue] text-white border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-[gold] my-[3.125rem]"
+      >
+        See All Articles
       </Link>
     </div>
   );

@@ -3,23 +3,23 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 import dayjs from "dayjs";
 
 const PostPage = ({
   slug,
-  frontmatter: { title, category, date, cover_image },
+  frontmatter: { title, date, cover_image },
   content,
 }) => {
   const router = useRouter();
   return (
-    <div className="post-container mobile:w-fit">
+    <div className="post-container w-[100%]">
       <Head>
         <title>Our Planet Earth | {slug}</title>
       </Head>
       <span onClick={() => router.back()}>
-        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1rem] mt-[2rem]">
+        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] ml-3 rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1rem] mt-[2rem]">
           Go Back
         </a>
       </span>
@@ -31,7 +31,7 @@ const PostPage = ({
           <span className="text-black/50">Published on</span>{" "}
           {dayjs(date).format("MMMM D, YYYY")}
         </div>
-        <div className="mobile:w-[25rem] tablet:w-[50rem] desktop:w-[60rem] text-center">
+        <div className="tablet:w-[50rem] desktop:w-[60rem] text-center">
           <Image
             objectFit="cover"
             height="600"
@@ -41,7 +41,7 @@ const PostPage = ({
             alt={title}
           />
         </div>
-        <div className="post-body mobile:w-[25rem] tablet:w-[48rem] desktop:w-[60rem]">
+        <div className="post-body tablet:w-[48rem] desktop:w-[60rem]">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           <span onClick={() => router.back()}>
             <a

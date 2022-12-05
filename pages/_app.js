@@ -11,9 +11,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="robots" content="all" key="robotsAllowed" />
         <meta
           name="description"
-          content="Promote clean air, clean water, and healthy soils for a greener and healthier world; learning and growing in our
-commitment to sustainability of our natural resources; renewable forms of energy to reduce greenhouse gases;
-and ecological conversion for the betterment of all ecosystems throughout the world."
+          content="We promote clean air, clean water, and healthy soils; a greener world; sustainable practices; renewable energy;
+          and conservation of worldwide ecosystems."
           key="desc"
         />
         <link
@@ -21,6 +20,7 @@ and ecological conversion for the betterment of all ecosystems throughout the wo
           href="https://ourplanetearth.eco"
           key="canonical"
         />
+        <link rel="icon" type="image/x-icon" href="/images/earth.png" />
       </Head>
       <main className="container">
         <Component {...pageProps} />

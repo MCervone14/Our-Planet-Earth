@@ -8,7 +8,7 @@ day-a-year event on Earth Day. It should be a daily requirement of our faith acc
 Conference of Catholic Bishops, which says that, in that requirement, 'We show our respect for the Creator by
 our stewardship in protecting people and the planet, and to live our relationship with all of God’s creation.'"
 category: "Ecological Economics"
-cover_image: "/images/posts/Praise be to you, my Lord!.avif"
+cover_image: "/images/posts/Praise be to you, my Lord.jpg"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.

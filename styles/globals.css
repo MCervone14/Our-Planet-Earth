@@ -12,12 +12,16 @@
   font-size: 16px;
 }
 
+html {
+  width: 100vw;
+  margin: auto;
+}
+
 body {
   font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.7);
   background-color: #f5f5f5;
-  min-width: 22.5rem;
 }
 
 p {
@@ -45,8 +49,6 @@ ol li {
 .container {
   max-width: 100%;
   margin: auto;
-  overflow: auto;
-  padding: 0 0.625rem;
 }
 
 .article-card-text {
@@ -85,7 +87,8 @@ ol li {
 }
 
 .post-container {
-  width: 64rem;
+  max-width: 64rem;
+  min-width: 18.75rem;
   margin: auto;
   padding: 0 0.625px;
 }
@@ -114,4 +117,20 @@ ol {
 
 .category-ul li {
   list-style-type: none;
+}
+
+#search {
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  background-position: 16rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.active {
+  background-color: steelblue;
+  color: white;
 }
