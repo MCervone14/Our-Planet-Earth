@@ -1,5 +1,5 @@
 ---
-title: "Only you can prevent wildfires"
+title: "Only You Can Prevent Wildfires"
 date: "2022-12-16"
 excerpt: "Did you know that nearly 85% of wildfires in the United States are caused by humans (2000-2017 data based on
 Wildland Fire Management Information, and U.S. Forest Service Research Data Archive), while others by
@@ -11,7 +11,7 @@ cover_image: "/images/posts/Only you can prevent wildfires.jpg"
 ---
 
 _Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.
-Our Mother Earth_
+Our Planet Earth_
 
 **Editor’s note:** _This series takes a deeper look at Pope Francis’ 2015 encyclical－ On Care for Our Common
 Home, Laudato Si’_
