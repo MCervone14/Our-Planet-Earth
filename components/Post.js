@@ -5,13 +5,12 @@ import dayjs from "dayjs";
 import CategoryLabel from "./CategoryLabel";
 
 const Post = ({ post }) => {
-  console.log(post);
   return (
     <div className="py-[1.5625rem] px-[1.875rem] rounded-lg shadow-2 bg-white min-w-[20rem]">
       <h3 className="post-title mobile:text-[1rem] tablet:text-[1rem] laptop:text-[1.25rem] desktop:text-[1.5rem] font-bold">
         {post.frontmatter.title}
       </h3>
-      <div className="mb-[1.25rem] py-1 flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-row tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
+      <div className="mb-[1.25rem] py-1 flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-col tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
         <div>
           <span className="text-black/50">Published </span>{" "}
           {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
@@ -32,7 +31,7 @@ const Post = ({ post }) => {
 
       <Link href={`/article/${post.slug}`} legacyBehavior>
         <div>
-          <a className="bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold mt-[1rem] hover:text-[gold] ">
+          <a className="bg-[#B0C4DE] text-[#2a4cac] border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold mt-[1rem] hover:text-white ">
             Read More
           </a>
           <span className="ml-[.3125rem] text-black/50">

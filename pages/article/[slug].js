@@ -19,7 +19,7 @@ const PostPage = ({
         <title>Our Planet Earth | {slug}</title>
       </Head>
       <span onClick={() => router.back()}>
-        <a className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] ml-3 rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1rem] mt-[2rem]">
+        <a className="inline-block bg-[#B0C4DE] text-[#2a4cac] border-0 py-[.5rem] px-[1rem] ml-3 rounded cursor-pointer text-[1rem] font-bold hover:text-white mb-[1rem] mt-[2rem]">
           Go Back
         </a>
       </span>
@@ -46,7 +46,7 @@ const PostPage = ({
           <span onClick={() => router.back()}>
             <a
               style={{ float: "right" }}
-              className="inline-block bg-[steelblue] text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-[gold] mb-[1.25rem]"
+              className="inline-block bg-[#B0C4DE] text-[#2a4cac] border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-white mb-[1.25rem]"
             >
               Go Back
             </a>

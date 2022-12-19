@@ -44,7 +44,7 @@ export default function Home({ posts }) {
       <Link
         href="/articles"
         passHref
-        className="flex w-[12rem] text-center m-auto bg-[steelblue] text-white border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-[gold] my-[3.125rem]"
+        className="flex w-[12rem] text-center m-auto bg-[#B0C4DE] text-[#2a4cac] border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-white my-[3.125rem]"
       >
         See All Articles
       </Link>
