@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="robots" content="all" key="robotsAllowed" />
+        <meta lang="en"/>
         <meta
           name="description"
           content="We promote clean air, clean water, and healthy soils; a greener world; sustainable practices; renewable energy;
