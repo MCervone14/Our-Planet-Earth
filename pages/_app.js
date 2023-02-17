@@ -10,13 +10,14 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="robots" content="all" key="robotsAllowed" />
-        <meta lang="en"/>
+        <meta lang="en" />
         <meta
           name="description"
           content="We promote clean air, clean water, and healthy soils; a greener world; sustainable practices; renewable energy;
           and conservation of worldwide ecosystems."
           key="desc"
         />
+        <meta name="fo-verify" content="05d4924b-7296-4631-9c25-f159d024e4c4" />
         <link
           rel="canonical"
           href="https://ourplanetearth.eco"
