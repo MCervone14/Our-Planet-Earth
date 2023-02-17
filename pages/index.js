@@ -14,6 +14,7 @@ export default function Home({ posts }) {
     <div className="container">
       <Head>
         <title>Our Planet Earth | Home</title>
+        <meta name="fo-verify" content="05d4924b-7296-4631-9c25-f159d024e4c4" />
       </Head>
       <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem] ">
         Our Planet Earth
