@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
           and conservation of worldwide ecosystems."
           key="desc"
         />
-        <meta name="fo-verify" content="05d4924b-7296-4631-9c25-f159d024e4c4" />
         <link
           rel="canonical"
           href="https://ourplanetearth.eco"
