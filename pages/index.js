@@ -53,6 +53,7 @@ export default function Home({ posts }) {
       >
         See All Articles
       </Link>
+      <p className="text-center">flexoffers</p>
       <Script
         type="text/javascript"
         src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=c3bcc66bb1f76eda1ed3b7382087b33b5c559fbb"
