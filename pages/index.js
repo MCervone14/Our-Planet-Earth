@@ -5,7 +5,6 @@ import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
 import { sortByDate } from "../utils";
-import Script from "next/script";
 
 //components
 import Post from "../components/Post";
@@ -15,10 +14,6 @@ export default function Home({ posts }) {
     <div className="container">
       <Head>
         <title>Our Planet Earth | Home</title>
-        <meta
-          name="fo-verify"
-          content="05d4924b-7296-4631-9c25-f159d024e4c4"
-        ></meta>
       </Head>
       <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem] ">
         Our Planet Earth
@@ -53,11 +48,6 @@ export default function Home({ posts }) {
       >
         See All Articles
       </Link>
-      <p className="text-center">flexoffers</p>
-      <Script
-        type="text/javascript"
-        src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=c3bcc66bb1f76eda1ed3b7382087b33b5c559fbb"
-      ></Script>
     </div>
   );
 }
