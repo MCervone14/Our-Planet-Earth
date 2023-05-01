@@ -72,6 +72,26 @@ const authors = () => {
           Learner) teacher, who lives in Evansville, Indiana with her family.
         </p>
       </div>
+      <div className="flex items-center justify-center m-auto w-[50%] mb-[1.875rem] gap-[3.125rem] mobile:flex-col tablet:flex-col desktop:flex-row">
+        <Image
+          src="/images/MichaelCervone.jpg"
+          alt="Author of Our Mother Earth Website"
+          width="250px"
+          height="250px"
+          objectFit="cover"
+          objectPosition="50% 20%"
+          layout="intrinsic"
+          placeholder="blur"
+          blurDataURL="/images/NicolePhoto.png"
+          style={{
+            borderRadius: "50%",
+          }}
+        />
+        <p className="w-[60%] tablet:w-[100%] mobile:w-[100%]">
+          Michael Cervone is a web developer and designer who lives in
+          Evansville, Indiana.
+        </p>
+      </div>
     </>
   );
 };

@@ -13,12 +13,12 @@ const CategoryLabel = ({ children }) => {
   };
   return (
     <span
-      className={`font-semibold w-fit inline-block px-2 text-center uppercase rounded last:mr-0 mr-1`}
+      className={`font-semibold w-fit inline-block px-1 py-0 text-center text-sm uppercase rounded last:mr-0 mr-1`}
       style={{ backgroundColor: `${colorKey[children.toLowerCase()]}` }}
     >
       <Link
         href={`/articles/category/${children.toLowerCase()}`}
-        className="text-[.6875rem] text-[#1e3a8a] hover:text-white"
+        className="text-[.65rem] text-[#1e3a8a] "
       >
         {children}
       </Link>

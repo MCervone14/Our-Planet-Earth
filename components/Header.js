@@ -4,9 +4,8 @@ import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 
 const Header = () => {
-  const router = useRouter();
   return (
-    <header className="bg-[steelblue] flex text-white p-[.3125rem] px-[10rem] mobile:px-[3rem]">
+    <header className="bg-[steelblue] flex text-white p-5 px-[10rem] mobile:px-[3rem]">
       <div className="mt-[.625rem] w-full flex items-center gap-2 ">
         <Link href="/" passHref>
           <Image
@@ -20,7 +19,7 @@ const Header = () => {
         <Link
           href="/"
           passHref
-          className="font-[Tangerine] text-[1.7rem] hover:text-[gold] cursor-pointer text-white mobile:hidden"
+          className="font-[Tangerine] text-[3rem] hover:text-[gold] cursor-pointer text-white mobile:hidden"
         >
           Our Planet Earth
         </Link>
