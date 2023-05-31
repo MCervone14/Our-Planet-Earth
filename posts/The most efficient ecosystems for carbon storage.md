@@ -8,6 +8,8 @@ roughly fewer than 30 – to drastically reduce the emissions of gas and the gre
 (Pope Francis in TED talk: Earth cannot be squeezed ‘like an orange,’ Vatican City, 10/10/20)."
 category: "Cry of the Earth"
 cover_image: "/images/posts/The most efficient ecosystems for carbon storage.jpg"
+lat_lng: [25.2997, -81.1538]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.

@@ -9,6 +9,8 @@ projects to realize their impacts on the environment, and be held accountable. I
 to avoid, minimize, and mitigate/lessen our impacts upon Earth’s air, water and soil."
 category: "Ecological Education"
 cover_image: "/images/posts/A Team Effort of Love.jpg"
+lat_lng: [38.9072, -77.0369 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

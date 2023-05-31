@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import path from "path";
 import Articles from "../../components/Articles";
 import CategoryList from "../../components/CategoryList";
-import { sortByDate } from "../../utils";
+import { sortByDate } from "../../lib/utils";
 import Search from "../../components/Search";
 
 const articles = ({ posts, categories }) => {

@@ -8,6 +8,8 @@ and dealing with global climate change should be top priorities (PEW Research Ce
 Kennedy, How Americans see climate change and the environment in seven charts, 4/21/20)."
 category: "Community Involvement"
 cover_image: "/images/posts/Seventh anniversary of ‘Laudato Si’’.jpg"
+lat_lng: [14.5995, 120.9842]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

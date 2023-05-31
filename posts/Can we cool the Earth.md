@@ -7,6 +7,8 @@ It’s significant because many issues then －exist today. Similarly, Katharine
 a great video entitled “The most important thing you can do to fight climate change” (12/14/18)."
 category: "Ecological Economics"
 cover_image: "/images/posts/Can we cool the Earth.jpg"
+lat_lng: [44.3601, -71.0589 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

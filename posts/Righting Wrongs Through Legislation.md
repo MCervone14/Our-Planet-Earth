@@ -7,6 +7,8 @@ authors are Aldo Leopold (“A Sand County Almanac”) and Rachel Carson (“Sil
 in passing legislation like:"
 category: "Ecological Education"
 cover_image: "/images/posts/Righting Wrongs Through Legislation.jpg"
+lat_lng: [45.5019, -73.5674]
+news_category: "Our Planet Earth Article"
 ---
 
 ###### <sub>Americans once used DDT with abandon, as on this Long Island, New York, beach, ca. 1945. (Pictorial Press Ltd/Alamy Stock Photo)<sub>

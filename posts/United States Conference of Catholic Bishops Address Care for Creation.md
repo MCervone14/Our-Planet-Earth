@@ -13,6 +13,8 @@ Executive Director of Catholic Climate Covenant says, “such actions will be a 
 game-changer.”"
 category: "Ecological Spirituality"
 cover_image: "/images/posts/United States Conference of Catholic Bishops Address Care for Creation.jpg"
+lat_lng: [32.7157, -117.1611]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

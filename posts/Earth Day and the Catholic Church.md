@@ -8,6 +8,8 @@ Day, Adirondack Council.” The first two websites under “What can we do!” g
 22, 2023."
 category: "Ecological Education"
 cover_image: "/images/posts/Earth Day and the Catholic Church.jpg"
+lat_lng: [43.7844, -88.7879]
+news_category: "Our Planet Earth Article"
 ---
 
 ###### <sub>Gaylord Nelson received the Presidential Freedom Award from President Bill Clinton in 1995.<sub>

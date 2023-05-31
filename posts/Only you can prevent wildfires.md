@@ -8,6 +8,8 @@ malfunctions, negligently discarded cigarettes and intentional acts of arson (Na
 Causes and Evaluations). Smokey Bear’s fire prevention message today is, “Only you can prevent wildfires.”"
 category: "Ecological Education"
 cover_image: "/images/posts/Only you can prevent wildfires.jpg"
+lat_lng: [39.4075, -120.3591]
+news_category: "Our Planet Earth Article"
 ---
 
 _Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.

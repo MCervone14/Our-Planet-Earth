@@ -8,6 +8,8 @@ security blanket protecting us from ultraviolet rays? If we had no atmosphere, t
 life. The atmosphere even allows us to hear."
 category: "Cry of the Poor"
 cover_image: "/images/posts/Earth’s atmosphere.jpg"
+lat_lng: [31.3452, -104.5124 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

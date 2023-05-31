@@ -9,6 +9,8 @@ Conference of Catholic Bishops, which says that, in that requirement, 'We show o
 our stewardship in protecting people and the planet, and to live our relationship with all of God’s creation.'"
 category: "Ecological Economics"
 cover_image: "/images/posts/Praise be to you, my Lord.jpg"
+lat_lng: [-33.4883, 149.5350]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.

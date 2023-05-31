@@ -8,6 +8,8 @@ animals may be considered sentinel species used to detect risks to humans, very
 canary sent into a coal mine. If it died, that was an early warning."
 category: "Ecological Education"
 cover_image: "/images/posts/Bees, butterflies and earthworms.jpg"
+lat_lng: [19.4326, -99.1332 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

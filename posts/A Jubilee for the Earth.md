@@ -7,6 +7,8 @@ usually deals with some aspect of Catholic teaching. “Laudato Si’” is an a
 living on this planet” to enter into dialogue with him on the future of our Mother Earth."
 category: "Ecological Education"
 cover_image: "/images/posts/A Jubilee for the Earth.jpg"
+lat_lng: [38.9273, -114.2645 ]
+news_category: "Our Planet Earth Article"
 ---
 
 By Deacon Tom Cervone, Ph.D.; Sister Maureen Houlihan, D.C.; and Nicole Cervone-Gish, Ed.M.S.

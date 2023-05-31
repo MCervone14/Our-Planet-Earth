@@ -9,6 +9,8 @@ warming ― warmer temperatures, melting glaciers, and increasing sea levels ―
 climate change, which forces people and animals from their homes."
 category: "Simple Lifestyles"
 cover_image: "/images/posts/Pollution, Waste and a Throwaway Culture.jpg"
+lat_lng: [-8.4095, 115.1889]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

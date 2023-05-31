@@ -9,6 +9,8 @@ Anniversary Year, Pope Francis established seven public commitment groups and se
 goals."
 category: "Cry of the Poor"
 cover_image: "/images/posts/Pope Francis calls us to action on ecological issues.jpg"
+lat_lng: [41.9028, 12.4964]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

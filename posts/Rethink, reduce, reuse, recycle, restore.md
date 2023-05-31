@@ -7,6 +7,8 @@ we could rethink, reduce, reuse, recycle and restore. Applying these five R’s 
 promote healthy environments, increase soil fertility, and improve Earth’s air, water, and land."
 category: "Simple Lifestyles"
 cover_image: "/images/posts/Rethink, reduce, reuse, recycle, restore.jpg"
+lat_lng: [52.5226, 13.3796]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.

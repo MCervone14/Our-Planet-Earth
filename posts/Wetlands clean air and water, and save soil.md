@@ -8,6 +8,8 @@ Conservation Plan, June 1996). One million of these acres were in the Grand Kank
 (Jack Klasey, 2/2/19, Daily Journal, Kankakee, Illinois) which has been effectively lost today."
 category: "Cry of the Earth"
 cover_image: "/images/posts/Wetlands clean air and water, and save soil.jpg"
+lat_lng: [40.5512, -85.6024]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

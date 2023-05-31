@@ -10,6 +10,8 @@ soil was thought to be silent. What if it isn’t? Living World). Franklin D. Ro
 nation that destroys its soil, destroys itself.”"
 category: "Cry of the Earth"
 cover_image: "/images/posts/Save the Dirt.jpg"
+lat_lng: [53.3963, 62.9093]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

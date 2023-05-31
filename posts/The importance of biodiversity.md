@@ -10,6 +10,8 @@ Scientific American). So, we urge you to take to heart Pope Francis’ wisdom in
 Loss of Biodiversity."
 category: "Cry of the Earth"
 cover_image: "/images/posts/The importance of biodiversity.jpg"
+lat_lng: [45.2538, -69.4455]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

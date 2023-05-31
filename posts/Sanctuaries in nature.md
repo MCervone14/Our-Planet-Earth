@@ -7,6 +7,8 @@ Kentucky, there are two in our region – Green River and Clarks River. Also, we
 parks, preserves, and natural areas."
 category: "Simple Lifestyles"
 cover_image: "/images/posts/Sanctuaries in nature.jpg"
+lat_lng: [38.3837, -87.3254]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

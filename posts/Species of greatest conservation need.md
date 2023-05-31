@@ -10,6 +10,8 @@ biodiversity, two-thirds of the species have lost habitat to fire and deforestat
 Gustin, 9/1/2021, Inside Climate News)."
 category: "Ecological Spirituality"
 cover_image: "/images/posts/Species of greatest conservation need.jpg"
+lat_lng: [38.9232, -87.0194]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

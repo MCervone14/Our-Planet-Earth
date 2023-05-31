@@ -1,23 +1,7 @@
 import React from "react";
-import { NavLink } from "../utils/NavLink";
+import { NavLink } from "../lib/NavLink";
 
 const CategoryList = ({ categories }) => {
-  const catTooltips = {
-    "Community Involvement":
-      "Emphasizes 'care for creation' at the local, regional, national, and international levels.",
-    "Cry of the Earth":
-      "Includes the use of clean renewable energy sources to achieve carbon neutrality. In addition, it promotes biodiversity, clean water, clean air, and healthy soils.",
-    "Cry of the Poor":
-      "Embraces protecting human life from conception to death, and protecting all life on earth, especially vulnerable groups.",
-    "Ecological Economics":
-      "Addresses fair-trade policies, sustainable production of products, ethical use of resources and investments, and the removal of any economic activities harmful to the planet and to its people.",
-    "Ecological Education":
-      "Directs us to rethink and redesign educational curriculum and our schools, and create more ecological awareness, action, and vocations.",
-    "Ecological Spirituality":
-      "Emphasizes God's creation, encourages more contact with nature, promotes creation-centered liturgical celebrations, and develops more opportunities for ecological prayer, retreats, and formation.",
-    "Simple Lifestyles":
-      "Praises living a more thoughtful, considerate and simpler lifestyle related to the use of natural resources and energy. It also advocates adopting a more plant-based diet, greater use of public transportation, and not polluting our water, air, and soil.",
-  };
   return (
     <>
       <div className="w-[60vw] mt-[2rem] mx-auto">
@@ -29,7 +13,7 @@ const CategoryList = ({ categories }) => {
             key="0"
             exact
             href="/articles"
-            className="py-1 px-2 flex text-[#1e3a8a] items-center justify-center list-none rounded-lg hover:bg-[steelblue] cursor-pointer hover:text-white"
+            className="py-1 px-2 flex text-[#1e3a8a] items-center justify-center list-none rounded-lg hover:bg-[steelblue] cursor-pointer border-2 border-[#2a4cac] hover:text-white"
           >
             All Articles
           </NavLink>

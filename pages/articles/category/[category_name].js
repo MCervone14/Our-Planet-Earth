@@ -5,10 +5,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
-import { sortByDate } from "../../../utils";
 import CategoryList from "../../../components/CategoryList";
 import Articles from "../../../components/Articles";
-import { capitalizeCategory } from "../../../utils";
+import { capitalizeCategory, sortByDate } from "../../../lib/utils";
 import Search from "../../../components/Search";
 
 const Category = ({ posts, categoryName, categories }) => {

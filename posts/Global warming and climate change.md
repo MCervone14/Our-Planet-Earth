@@ -7,6 +7,8 @@ of glaciers and icebergs; and a reduction in albedo (reflectivity of the sun’s
 covered areas in the world."
 category: "Cry of the Poor"
 cover_image: "/images/posts/Global warming and climate change.jpg"
+lat_lng: [40.7128, -74.0060 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

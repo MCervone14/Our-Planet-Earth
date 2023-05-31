@@ -7,6 +7,8 @@ above the pre-industrial average and the continued loss of biodiversity risk cat
 health” (Amy McKeever, National Geographic, 9/9/21)."
 category: "Community Involvement"
 cover_image: "/images/posts/Good news about Pope Francis’ ‘Laudato Si’’.jpg"
+lat_lng: [55.8714, -4.2546]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

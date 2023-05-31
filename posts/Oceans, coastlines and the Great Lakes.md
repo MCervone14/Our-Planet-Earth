@@ -9,6 +9,8 @@ Feb 15, 2019. Oceans, coastlines and the Great Lakes need protection because the
 gifts for our enjoyment and survival, and they affect people throughout the world."
 category: "Ecological Economics"
 cover_image: "/images/posts/Oceans, coastlines and the Great Lakes.jpg"
+lat_lng: [32.7158, -79.7893]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

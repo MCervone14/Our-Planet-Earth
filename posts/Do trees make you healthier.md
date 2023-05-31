@@ -8,6 +8,8 @@ soak up lung-damaging pollution (James Bruggers, 10/26/17, Courier Journal). Tre
 oxygen to breathe; shade; sequester carbon dioxide from the atmosphere; and filter pollutants."
 category: "Ecological Education"
 cover_image: "/images/posts/Do trees make you healthier.jpg"
+lat_lng: [38.2527, -85.7585]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

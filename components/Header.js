@@ -1,11 +1,10 @@
 import Link from "next/link";
 import { Dropdown } from "flowbite-react";
 import Image from "next/legacy/image";
-import { useRouter } from "next/router";
 
 const Header = () => {
   return (
-    <header className="bg-[steelblue] flex text-white p-5 px-[10rem] mobile:px-[3rem]">
+    <header className="bg-[steelblue] flex text-white p-5 px-[5rem] mobile:px-[3rem]">
       <div className="mt-[.625rem] w-full flex items-center gap-2 ">
         <Link href="/" passHref>
           <Image
@@ -24,7 +23,7 @@ const Header = () => {
           Our Planet Earth
         </Link>
       </div>
-      <nav className="flex gap-[5rem] items-center">
+      <nav className="flex gap-[5rem] items-center justify-between">
         <Link
           href="/"
           passHref
@@ -38,6 +37,13 @@ const Header = () => {
           className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
         >
           Articles
+        </Link>
+        <Link
+          href="/ourplanet"
+          passHref
+          className="cursor-pointer text-center hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+        >
+          Global News
         </Link>
         <Link
           href="/authors"
@@ -69,6 +75,15 @@ const Header = () => {
                 className="cursor-pointer hover:text-[steelblue]"
               >
                 Articles
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <Link
+                href="/ourplanet"
+                passHref
+                className="cursor-pointer hover:text-[steelblue]"
+              >
+                Global News
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>

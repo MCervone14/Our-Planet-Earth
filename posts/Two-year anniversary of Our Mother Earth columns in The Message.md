@@ -7,6 +7,8 @@ celebrate two years of writing Our Mother Earth monthly. Every column is availab
 https://evdiomessage.org/our-mother-earth/. Titles and dates for each are shown below."
 category: "Community Involvement"
 cover_image: "/images/posts/Two-year anniversary of Our Mother Earth columns in The Message.jpg"
+lat_lng: [32.0319, -84.3936]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

@@ -8,6 +8,8 @@ common are perennial, bunch grasses (little bluestem, big bluestem, Indiangrass)
 wildflowers (milkweed, coneflowers, sunflowers)."
 category: "Ecological Economics"
 cover_image: "/images/posts/Grasslands, pollinators, and our health.jpg"
+lat_lng: [40.5121, -88.9948]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

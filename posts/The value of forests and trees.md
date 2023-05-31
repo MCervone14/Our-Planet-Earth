@@ -8,6 +8,8 @@ city neighborhoods have few, if any trees? We urge you to take to heart Pope Fra
 and his love for trees – and the blessings they give us."
 category: "Ecological Economics"
 cover_image: "/images/posts/The value of forests and trees.jpg"
+lat_lng: [38.8375, -120.8958]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.

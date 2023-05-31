@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
-import { sortByDate } from "../utils";
+import { sortByDate } from "../lib/utils";
 
 //components
 import Post from "../components/Post";

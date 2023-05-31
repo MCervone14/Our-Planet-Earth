@@ -8,6 +8,8 @@ cause climate change by trapping heat, and have far-ranging environmental and he
 Christina Nunez, 5/13/19). A simple way to help Our Mother Earth is to become carbon neutral."
 category: "Cry of the Earth"
 cover_image: "/images/posts/Carbon Neutrality.jpg"
+lat_lng: [37.9715, -87.5715 ]
+news_category: "Our Planet Earth Article"
 ---
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed.M.S.
