@@ -11,7 +11,7 @@ const GlobeText = () => {
   });
 
   return (
-    <Text ref={textRef} position={[0, 5.7, 0]} scale={0.7} color={"steelblue"}>
+    <Text ref={textRef} position={[0, 5.7, 0]} scale={0.4} color={"steelblue"}>
       Everything is Connected!
     </Text>
   );

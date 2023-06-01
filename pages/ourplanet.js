@@ -21,8 +21,6 @@ extend({ Globe });
 
 const OurPlanet = ({ posts }) => {
   const orbitCameraRef = useRef();
-  console.log(posts);
-
   const [hoveredPost, setHoveredPost] = useState(null);
   const [activePost, setActivePost] = useState(false);
 
@@ -30,12 +28,10 @@ const OurPlanet = ({ posts }) => {
     setHoveredPost(post);
   };
 
-  console.log(orbitCameraRef.current);
-
   return (
-    <div className="flex justify-between h-[86vh] mobile:flex-col mobile:gap-10 mobile:mx-5">
+    <div className="flex h-[86vh] mobile:flex-col mobile:gap-10 mobile:mx-5">
       <Suspense fallback={<Loader />}>
-        <div className="w-1/2 relative mobile:w-[90%] mobile:mx-auto">
+        <div className="w-1/2 relative mobile:w-[90%] mt-2 ml-2 mobile:mx-auto mobile:h-[90%]">
           <Canvas dpr={[1, 2]}>
             <PerspectiveCamera makeDefault position={[0, 1, 14]} />
             <OrbitControls
@@ -66,8 +62,8 @@ const OurPlanet = ({ posts }) => {
           </Canvas>
           <Legend />
         </div>
-        <div className="flex flex-col justify-center items-center w-1/2 gap-5 mobile:w-full">
-          {/* <div className="flex gap-10">
+        <div className="flex justify-center items-center mx-auto">
+          {/* {/* <div className="flex gap-10">
             <button
               className="hover:bg-[#B0C4DE] text-[#2a4cac] py-2 px-4 rounded cursor-pointer text-sm font-bold border-2 border-[#2a4cac]"
               onClick={() =>
@@ -82,19 +78,22 @@ const OurPlanet = ({ posts }) => {
             >
               Reset Globe
             </button>
-          </div>
-          <div className="border-2 border-[#2a4cac] p-2 rounded mx-5">
-            <p className="text-sm text-center">
-              You can use mouse to rotate globe! To zoom in/out use mouse wheel
-              while hovering over globe.
-            </p>
-            <p className="text-sm text-center">
-              Hovering over any marker on globe will show their details.
-            </p>
           </div> */}
+          {!hoveredPost && (
+            <div className="border-2 border-[#2a4cac] rounded w-[70%]">
+              <p className="text-sm text-center">
+                You can use mouse to rotate globe! To zoom in/out use mouse
+                wheel while hovering over globe.
+              </p>
+              <p className="text-sm text-center">
+                Hovering over any marker on globe will show their details.
+              </p>
+            </div>
+          )}
+
           <div className="flex justify-center items-center h-full">
             {activePost && hoveredPost !== null ? (
-              <div className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden">
+              <div className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden w-full mobile:w-[70%] mobile:overflow-hidden">
                 <ArticleItem
                   frontmatter={hoveredPost.frontmatter}
                   content={hoveredPost.content}
