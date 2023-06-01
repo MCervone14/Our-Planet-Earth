@@ -30,6 +30,10 @@ const MapMarker = ({ position, post, getHoverPost, setActivePost }) => {
 
   return (
     <mesh
+      onClick={(e) => {
+        e.stopPropagation();
+        setActivePost(true);
+      }}
       ref={meshRef}
       position={[x, y, z]}
       onPointerOver={(e) => {
