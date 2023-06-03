@@ -11,6 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@react-spring/three": "^9.7.2",
     "@react-three/drei": "^9.68.3",
     "@react-three/fiber": "^8.13.0",

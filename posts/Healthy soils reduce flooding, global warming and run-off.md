@@ -7,7 +7,7 @@ run off into rivers that enter the Mississippi River creating a dead zone in the
 size of New Jersey (The Gulf of Mexico Dead Zone - SERC – Carleton, 10/15/2019)?"
 category: "Cry of the Earth"
 cover_image: "/images/posts/Healthy soils reduce flooding, global warming and run-off.jpg"
-lat_lng: [29.3488, -88.2928]
+lat_lng: [28.7950, -91.1058]
 news_category: "Our Planet Earth Article"
 ---
 

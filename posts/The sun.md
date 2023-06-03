@@ -8,7 +8,7 @@ and helium, 93 million miles from earth, and its volume would need 1.3 million e
 Aeronautics and Space Administration)."
 category: "Ecological Education"
 cover_image: "/images/posts/The sun.jpg"
-lat_lng: [-10.9512, -14.7361 ]
+lat_lng: [33.4024, -8.9286 ]
 news_category: "Our Planet Earth Article"
 ---
 

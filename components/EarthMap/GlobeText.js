@@ -1,20 +1,22 @@
-import { Text } from "@react-three/drei";
-import { useRef } from "react";
-import { useFrame, useThree } from "@react-three/fiber";
+//Not currently using.
 
-const GlobeText = () => {
-  const { camera } = useThree();
-  const textRef = useRef();
+// import { Text } from "@react-three/drei";
+// import { useRef } from "react";
+// import { useFrame, useThree } from "@react-three/fiber";
 
-  useFrame(() => {
-    textRef.current.rotation.copy(camera.rotation);
-  });
+// const GlobeText = () => {
+//   const { camera } = useThree();
+//   const textRef = useRef();
 
-  return (
-    <Text ref={textRef} position={[0, 5.7, 0]} scale={0.4} color={"steelblue"}>
-      Everything is Connected!
-    </Text>
-  );
-};
+//   useFrame(() => {
+//     textRef.current.rotation.copy(camera.rotation);
+//   });
 
-export default GlobeText;
+//   return (
+//     <Text ref={textRef} position={[0, 5.7, 0]} scale={0.4} color={"steelblue"}>
+//       Everything is Connected!
+//     </Text>
+//   );
+// };
+
+// export default GlobeText;

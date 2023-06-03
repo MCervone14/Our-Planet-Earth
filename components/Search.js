@@ -28,15 +28,15 @@ const Search = () => {
   }, [searchTerm]);
 
   return (
-    <div className="bg-[steelblue]/20 p-4 pr-8 flex  items-center mobile:justify-center tablet:justify-end laptop:justify-end desktop:justify-end">
-      <div className="text-gray-600">
+    <div className="bg-[steelblue]/20 p-4 pr-8 flex  items-center mobile:justify-center tablet:justify-end laptop:justify-end desktop:justify-end z-[0]">
+      <div className="text-gray-600 z-[0]">
         <form>
           {" "}
           <input
             type="search"
             name="search"
             id="search"
-            className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72"
+            className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72 z-[0]"
             value={searchTerm}
             onFocus={handleFocus}
             onBlur={handleBlur}

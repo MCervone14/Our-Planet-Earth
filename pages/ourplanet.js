@@ -1,4 +1,5 @@
 import fs from "fs";
+import Head from "next/head";
 import path from "path";
 import matter from "gray-matter";
 import { Suspense, useRef, useState } from "react";
@@ -13,7 +14,6 @@ import {
 import Globe from "../components/EarthMap/Globe";
 import { createPoint } from "../lib/utils";
 import MapMarker from "../components/EarthMap/MapMarker";
-import GlobeText from "../components/EarthMap/GlobeText";
 import Legend from "../components/EarthMap/Legend";
 import ArticleItem from "../components/ArticleItem";
 
@@ -29,71 +29,63 @@ const OurPlanet = ({ posts }) => {
   };
 
   return (
-    <div className="flex  h-[86vh] mobile:flex-col mobile:gap-10 mobile:mx-5">
+    <div className="flex-col h-[100vh]">
+      <Head>
+        <title>Our Planet Earth | Global News </title>
+      </Head>
       <Suspense fallback={<Loader />}>
-        <div className="w-1/2 relative mobile:w-[90%] mt-2 ml-2 mobile:mx-auto mobile:h-[90%]">
-          <Canvas dpr={[1, 2]}>
-            <PerspectiveCamera makeDefault position={[0, 1, 14]} />
-            <OrbitControls
-              ref={orbitCameraRef}
-              maxDistance={16}
-              minDistance={7}
-              rotateSpeed={0.2}
-            />
-            <GlobeText />
-            <ambientLight intensity={0.8} />
-            <pointLight intensity={2} position={[0, 0, -1000]} />
-            <Sky position={[1, 6, 0]} />
-            <Cloud position={[4, 2, -15]} speed={0.2} opacity={0.5} />
-            <Cloud position={[-4, 2, -10]} speed={0.2} opacity={0.5} />
-            <Globe />
-            {posts.map((post, index) => (
-              <MapMarker
-                getHoverPost={getHoverPost}
-                setActivePost={setActivePost}
-                key={index}
-                post={post}
-                position={createPoint(
-                  post.frontmatter.lat_lng[0],
-                  post.frontmatter.lat_lng[1]
-                )}
-              />
-            ))}
-          </Canvas>
-          <Legend />
+        <div>
+          <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem] my-12">
+            Everything is Connected!
+          </h1>
         </div>
-        <div className="flex justify-center items-center">
-          {/* {/* <div className="flex gap-10">
-            <button
-              className="hover:bg-[#B0C4DE] text-[#2a4cac] py-2 px-4 rounded cursor-pointer text-sm font-bold border-2 border-[#2a4cac]"
-              onClick={() =>
-                orbitCameraRef.current?.rotate(Math.PI / 4, 0, true)
-              }
-            >
-              Rotate Globe
-            </button>
-            <button
-              className="hover:bg-[#B0C4DE] text-[#2a4cac] py-2 px-4 rounded cursor-pointer text-sm font-bold border-2 border-[#2a4cac]"
-              onClick={() => orbitCameraRef.current?.reset(true)}
-            >
-              Reset Globe
-            </button>
-          </div> */}
-          {!hoveredPost && (
-            <div className="border-2 border-[#2a4cac] rounded w-full flex flex-col justify-center items-center mx-20">
-              <p className="text-sm text-center">
-                You can use mouse to rotate globe! To zoom in/out use mouse
-                wheel while hovering over globe.
-              </p>
-              <p className="text-sm text-center">
-                Hovering over any marker on globe will show their details.
-              </p>
+        <div className="flex w-full h-full mobile:flex-col mobile:gap-10">
+          <div className="w-1/2 relative mobile:w-[85%] mobile:mx-auto mobile:h-1/2">
+            <Canvas dpr={[1, 2]}>
+              <PerspectiveCamera makeDefault position={[0, 1, 14]} />
+              <OrbitControls
+                ref={orbitCameraRef}
+                maxDistance={16}
+                minDistance={6}
+                rotateSpeed={0.2}
+              />
+              <ambientLight intensity={0.8} />
+              <pointLight intensity={2} position={[0, 0, -1000]} />
+              <Sky position={[1, 6, 0]} />
+              <Cloud position={[4, 2, -15]} speed={0.2} opacity={0.5} />
+              <Cloud position={[-4, 2, -10]} speed={0.2} opacity={0.5} />
+              <Globe />
+              {posts.map((post, index) => (
+                <MapMarker
+                  getHoverPost={getHoverPost}
+                  setActivePost={setActivePost}
+                  key={index}
+                  post={post}
+                  position={createPoint(
+                    post.frontmatter.lat_lng[0],
+                    post.frontmatter.lat_lng[1]
+                  )}
+                />
+              ))}
+            </Canvas>
+            <Legend />
+          </div>
+          <div className="w-1/2 flex justify-center items-center mobile:w-full">
+            <div className="flex justify-center items-center ">
+              {!hoveredPost && (
+                <div className="border-2 border-[#2a4cac] rounded w-full justify-center items-center px-2 mobile:mx-10">
+                  <p className="text-sm text-center">
+                    You can use mouse to rotate globe! To zoom in/out use mouse
+                    wheel while hovering over globe.
+                  </p>
+                  <p className="text-sm text-center">
+                    Hovering over any marker on globe will show their details.
+                  </p>
+                </div>
+              )}
             </div>
-          )}
-
-          <div className="flex justify-center items-center h-full">
             {activePost && hoveredPost !== null ? (
-              <div className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden w-full mobile:w-1/2 mobile:overflow-hidden">
+              <div className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden scrollbar">
                 <ArticleItem
                   frontmatter={hoveredPost.frontmatter}
                   content={hoveredPost.content}
