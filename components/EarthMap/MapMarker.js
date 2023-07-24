@@ -24,7 +24,7 @@ const MapMarker = ({ position, post, getHoverPost, setActivePost }) => {
       case "Our Planet Earth Podcast":
         return "green";
       default:
-        return "yellow";
+        return "/images/NewsArticleMarker.png";
     }
   };
 
@@ -48,22 +48,12 @@ const MapMarker = ({ position, post, getHoverPost, setActivePost }) => {
     >
       <Image
         url={getMarkerColor(post.frontmatter.news_category)}
-        alt="map marker"
+        alt={`${post.frontmatter.title} map marker`}
         scale={0.1}
         position={[0, 0, 0.01]}
         color={isHovered ? "hotpink" : "white"}
         transparent
       />
-      {/* <Sphere args={[0.02, 50, 50]}>
-        <meshBasicMaterial
-          attach="material"
-          color={
-            isHovered
-              ? "hotpink"
-              : getMarkerColor(post.frontmatter.news_category)
-          }
-        />
-      </Sphere> */}
     </mesh>
   );
 };

@@ -16,10 +16,11 @@ import { createPoint } from "../lib/utils";
 import MapMarker from "../components/EarthMap/MapMarker";
 import Legend from "../components/EarthMap/Legend";
 import ArticleItem from "../components/ArticleItem";
+import RelatedNewsArticleItem from "../components/RelatedNewsArticleItem";
 
 extend({ Globe });
 
-const OurPlanet = ({ posts }) => {
+const OurPlanet = ({ posts, relatedNewsPosts }) => {
   const orbitCameraRef = useRef();
   const [hoveredPost, setHoveredPost] = useState(null);
   const [activePost, setActivePost] = useState(false);
@@ -67,6 +68,18 @@ const OurPlanet = ({ posts }) => {
                   )}
                 />
               ))}
+              {relatedNewsPosts.map((newsPost, index) => (
+                <MapMarker
+                  getHoverPost={getHoverPost}
+                  setActivePost={setActivePost}
+                  key={index}
+                  post={newsPost}
+                  position={createPoint(
+                    newsPost.frontmatter.lat_lng[0],
+                    newsPost.frontmatter.lat_lng[1]
+                  )}
+                />
+              ))}
             </Canvas>
             <Legend />
           </div>
@@ -102,6 +115,25 @@ const OurPlanet = ({ posts }) => {
 export async function getStaticProps() {
   //get files from root posts folder
   const files = fs.readdirSync(path.join("posts"));
+  const relatedNewsFiles = fs.readdirSync(path.join("news-posts"));
+
+  // get slug and frontmatter from  news-posts
+  const relatedNewsPosts = relatedNewsFiles.map((filename) => {
+    const slug = filename.replace(".md", "");
+
+    const markdownWithMeta = fs.readFileSync(
+      path.join("news-posts", filename),
+      "utf-8"
+    );
+
+    const { data: frontmatter, content } = matter(markdownWithMeta);
+
+    return {
+      slug,
+      frontmatter,
+      content,
+    };
+  });
 
   // get slug and frontmatter from posts
   const posts = files.map((filename) => {
@@ -124,6 +156,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
+      relatedNewsPosts,
     },
   };
 }
