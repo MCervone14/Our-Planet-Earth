@@ -30,6 +30,7 @@ const Articles = ({ post, id, compact, searchTerm }) => {
           objectFit="cover"
           height="200"
           width="300"
+          layout="fixed"
           src={post.frontmatter.cover_image}
           alt={post.frontmatter.title}
         />

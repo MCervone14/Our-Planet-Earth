@@ -103,7 +103,7 @@ const Search = () => {
                   width={100}
                   height={50}
                   onClick={(e) => setActiveLabel(icon.label)}
-                  className={`cursor-pointer border-4 hover:opacity-90 rounded-full border-[steelblue]/0 z-100 ${
+                  className={`cursor-pointer  border-4 hover:opacity-90 rounded-full border-[steelblue]/0 z-100 ${
                     icon.label.toLowerCase() === activeLabel
                       ? "border-[steelblue]/100"
                       : ""
