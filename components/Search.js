@@ -48,11 +48,14 @@ const Search = () => {
   const [collaspseSearchBar, setCollapseSearchBar] = useState(true);
 
   const handleFocus = (e) => {
-    setIsShowing((prev) => !prev);
+    setIsShowing(true);
   };
 
   const handleBlur = (e) => {
-    setIsShowing(false);
+    const didClickModal = e.currentTarget.contains(e.relatedTarget);
+    if (!didClickModal) {
+      setIsShowing(false);
+    }
   };
 
   useEffect(() => {
@@ -125,7 +128,7 @@ const Search = () => {
             className="bg-white h-10 px-5 pr-10 rounded-full border-none outline-none focus:border-none text-sm  w-72 z-[0]"
             value={searchTerm}
             onFocus={handleFocus}
-            onBlur={handleBlur}
+            //
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Search Articles..."
             autoComplete="off"
