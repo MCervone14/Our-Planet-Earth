@@ -6,7 +6,7 @@ How fast is the Earth moving) says, the Earth revolves around the sun in 365 day
 mph, and rotates on its axis, at the equator at 1,000 mph. In addition, the sun is a yellow star made of hydrogen
 and helium, 93 million miles from earth, and its volume would need 1.3 million earths to fill it (National
 Aeronautics and Space Administration)."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/The sun.jpg"
 lat_lng: [33.4024, -8.9286 ]
 news_category: "Our Planet Earth Article"

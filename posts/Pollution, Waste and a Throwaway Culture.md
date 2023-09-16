@@ -7,7 +7,7 @@ climate too? For instance, greenhouse gases, like carbon dioxide, methane, and n
 absorb heat, and increase air and ocean temperatures resulting in global warming. It is global
 warming ― warmer temperatures, melting glaciers, and increasing sea levels ― that causes
 climate change, which forces people and animals from their homes."
-category: "Simple Lifestyles"
+category: "Simple-Lifestyles"
 cover_image: "/images/posts/Pollution, Waste and a Throwaway Culture.jpg"
 lat_lng: [-8.4095, 115.1889]
 news_category: "Our Planet Earth Article"

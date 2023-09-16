@@ -24,47 +24,48 @@ const Articles = ({ post, id, compact, searchTerm }) => {
   // };
 
   return (
-    <Link href={`/article/${post.slug}`} passHref legacyBehavior>
-      <div className="article-card flex items-center mb-[1.25rem] hover:cursor-pointer  mobile:flex-col tablet:flex-col laptop:flex-col desktop:flex-row">
-        <div>
-          {!compact && (
-            <Image
-              objectFit="cover"
-              height="200"
-              width="300"
-              layout="fixed"
-              src={post.frontmatter.cover_image}
-              alt={post.frontmatter.title}
-            />
-          )}
-        </div>
-        <div>
-          <h3 className="article-post-title title mobile:text-[1rem] tablet:text-[1.5rem] laptop:text-[2rem] desktop:text-[2rem]">
+    <div className="article-card flex items-center mb-[1.25rem]  mobile:flex-col tablet:flex-col laptop:flex-col desktop:flex-row">
+      <div>
+        {!compact && (
+          <Image
+            objectFit="cover"
+            height="200"
+            width="300"
+            layout="fixed"
+            src={post.frontmatter.cover_image}
+            alt={post.frontmatter.title}
+            className="z-[-1]"
+          />
+        )}
+      </div>
+      <div>
+        <Link href={`/article/${post.slug}`} passHref legacyBehavior>
+          <h2 className="article-post-title title mobile:text-[1rem] tablet:text-[1.5rem] laptop:text-[2rem] desktop:text-[2rem] hover:cursor-pointer hover:text-[steelblue]">
             {!compact && (
-              <span className="mx-[.625rem] mt-[1.125rem] text-black/[.3]">
+              <span className="mx-[.625rem] mt-[1.125rem] text-black/80">
                 #{id + 1}.
               </span>
             )}
             {post.frontmatter.title}
-          </h3>
-          {!compact && (
-            <div className="flex ml-[.625rem] gap-2 justify-between items-center laptop:flex-col laptop:items-start mobile:flex-col mobile:items-start  ">
-              <div>
-                <span className="text-black/50 ">Published </span>
-                {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
-              </div>
-              <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
+          </h2>
+        </Link>
+        {!compact && (
+          <div className="flex ml-[.625rem] gap-2 justify-between items-center laptop:flex-col laptop:items-start mobile:flex-col mobile:items-start  ">
+            <div>
+              <span className="text-black/80 ">Published </span>
+              {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
             </div>
+            <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
+          </div>
+        )}
+        <p className="article-card-text">
+          {getTextWithHightlightsForExcerpt(
+            post.frontmatter.excerpt,
+            searchTerm
           )}
-          <p className="article-card-text">
-            {getTextWithHightlightsForExcerpt(
-              post.frontmatter.excerpt,
-              searchTerm
-            )}
-          </p>
-        </div>
+        </p>
       </div>
-    </Link>
+    </div>
   );
 };
 

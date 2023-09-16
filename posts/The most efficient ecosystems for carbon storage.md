@@ -6,7 +6,7 @@ excerpt: "
 hope of avoiding radical changes in the climate and catastrophes. We have just a few years – scientists calculate
 roughly fewer than 30 – to drastically reduce the emissions of gas and the greenhouse effect in the atmosphere.”
 (Pope Francis in TED talk: Earth cannot be squeezed ‘like an orange,’ Vatican City, 10/10/20)."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/The most efficient ecosystems for carbon storage.jpg"
 lat_lng: [25.2997, -81.1538]
 news_category: "Our Planet Earth Article"

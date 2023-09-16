@@ -8,7 +8,7 @@ conservation threats in Indiana and identifies needed actions.” Did you know l
 the No. 1 cause for loss of species? For example, in the Amazon, the world’s largest reservoir of
 biodiversity, two-thirds of the species have lost habitat to fire and deforestation (Georgina
 Gustin, 9/1/2021, Inside Climate News)."
-category: "Ecological Spirituality"
+category: "Ecological-Spirituality"
 cover_image: "/images/posts/Species of greatest conservation need.jpg"
 lat_lng: [38.9232, -87.0194]
 news_category: "Our Planet Earth Article"

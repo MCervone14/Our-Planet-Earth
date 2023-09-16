@@ -13,6 +13,9 @@ module.exports = {
       laptop: { min: "1024px", max: "1374px" },
       desktop: "1375px",
     },
+    colors: {
+      charcoal: "#345C7F",
+    },
     extend: {
       boxShadow: {
         2: "0 4px 8px 0 rgba(0, 0, 0, 0.5)",

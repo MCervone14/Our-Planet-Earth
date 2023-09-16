@@ -7,7 +7,7 @@ Act, which required some federal agencies to take part in certain regulations, p
 licensing, and permitting? The NEPA has been a blessing for 50 years because it requires
 projects to realize their impacts on the environment, and be held accountable. It was developed
 to avoid, minimize, and mitigate/lessen our impacts upon Earth’s air, water and soil."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/A Team Effort of Love.jpg"
 lat_lng: [38.9072, -77.0369 ]
 news_category: "Our Planet Earth Article"

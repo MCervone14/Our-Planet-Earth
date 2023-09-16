@@ -6,7 +6,7 @@ Did you know that, in 1800, Indiana had over 83% of its land area in forests? An
 forests made up less than 7% (Sam Carman, IDNR, Div. of Forestry)? Also, did you know some
 city neighborhoods have few, if any trees? We urge you to take to heart Pope Francis’ wisdom
 and his love for trees – and the blessings they give us."
-category: "Ecological Economics"
+category: "Ecological-Economics"
 cover_image: "/images/posts/The value of forests and trees.jpg"
 lat_lng: [38.8375, -120.8958]
 news_category: "Our Planet Earth Article"

@@ -6,7 +6,7 @@ sunlight striking (heating) the Earth? It’s so glorious and vast from Earth; b
 very thin. Do you know it’s our atmosphere that contains oxygen for us to breathe, and it is our
 security blanket protecting us from ultraviolet rays? If we had no atmosphere, there would be no
 life. The atmosphere even allows us to hear."
-category: "Cry of the Poor"
+category: "Cry-of-the-Poor"
 cover_image: "/images/posts/Earth’s atmosphere.jpg"
 lat_lng: [31.3452, -104.5124 ]
 news_category: "Our Planet Earth Article"

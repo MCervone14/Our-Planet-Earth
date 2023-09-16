@@ -5,7 +5,7 @@ excerpt: "Did you know the TV show “Highway to Heaven” produced many episode
 environment? Merry Christmas from Grandpa (1989; Season 5/Episode 13) aired 33 years ago.
 It’s significant because many issues then －exist today. Similarly, Katharine Hayhoe, Ph.D., had
 a great video entitled “The most important thing you can do to fight climate change” (12/14/18)."
-category: "Ecological Economics"
+category: "Ecological-Economics"
 cover_image: "/images/posts/Can we cool the Earth.jpg"
 lat_lng: [44.3601, -71.0589 ]
 news_category: "Our Planet Earth Article"

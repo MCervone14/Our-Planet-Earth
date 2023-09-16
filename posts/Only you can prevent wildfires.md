@@ -6,7 +6,7 @@ Wildland Fire Management Information, and U.S. Forest Service Research Data Arch
 lightning? Human-caused fires result from campfires left unattended, burning of debris, equipment use and
 malfunctions, negligently discarded cigarettes and intentional acts of arson (National Park Service, Wildfire
 Causes and Evaluations). Smokey Bear’s fire prevention message today is, “Only you can prevent wildfires.”"
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/Only you can prevent wildfires.jpg"
 lat_lng: [39.4075, -120.3591]
 news_category: "Our Planet Earth Article"

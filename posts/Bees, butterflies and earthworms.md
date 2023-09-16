@@ -6,7 +6,7 @@ song “Blowin’ in the Wind.” In it, they sing, “Where have all the flower
 lyrics could easily become, “Where have all the bees, butterflies and earthworms gone?” These
 animals may be considered sentinel species used to detect risks to humans, very much like a
 canary sent into a coal mine. If it died, that was an early warning."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/Bees, butterflies and earthworms.jpg"
 lat_lng: [19.4326, -99.1332 ]
 news_category: "Our Planet Earth Article"

@@ -5,7 +5,7 @@ excerpt: "
 There are simple and economic ways to live an environmentally sensitive and thoughtful lifestyle. For instance,
 we could rethink, reduce, reuse, recycle and restore. Applying these five R’s will reduce our carbon footprint,
 promote healthy environments, increase soil fertility, and improve Earth’s air, water, and land."
-category: "Simple Lifestyles"
+category: "Simple-Lifestyles"
 cover_image: "/images/posts/Rethink, reduce, reuse, recycle, restore.jpg"
 lat_lng: [52.5226, 13.3796]
 news_category: "Our Planet Earth Article"

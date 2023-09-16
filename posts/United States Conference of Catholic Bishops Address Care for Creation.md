@@ -11,7 +11,7 @@ express their concerns and opinions on upcoming legislation. Such investments ar
 meet the Paris Agreement goals to reduce carbon emissions by 50% by 2030. Jose Aguto,
 Executive Director of Catholic Climate Covenant says, “such actions will be a civilizational
 game-changer.”"
-category: "Ecological Spirituality"
+category: "Ecological-Spirituality"
 cover_image: "/images/posts/United States Conference of Catholic Bishops Address Care for Creation.jpg"
 lat_lng: [32.7157, -117.1611]
 news_category: "Our Planet Earth Article"

@@ -5,7 +5,7 @@ excerpt: "Did you know that in 2015, Pope Francis published an encyclical On Car
 Home “Laudato Si’?” An encyclical is one of the highest forms of communication by a pope and
 usually deals with some aspect of Catholic teaching. “Laudato Si’” is an appeal for “every person
 living on this planet” to enter into dialogue with him on the future of our Mother Earth."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/A Jubilee for the Earth.jpg"
 lat_lng: [38.9273, -114.2645 ]
 news_category: "Our Planet Earth Article"

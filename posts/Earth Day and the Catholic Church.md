@@ -6,7 +6,7 @@ War protests. Both gave him the idea for a “teach-in” about environmental is
 Earth Day. It’s estimated that 20 million people participated in this event, according to “The History of Earth
 Day, Adirondack Council.” The first two websites under “What can we do!” give ideas for Earth Day on April
 22, 2023."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/Earth Day and the Catholic Church.jpg"
 lat_lng: [43.7844, -88.7879]
 news_category: "Our Planet Earth Article"

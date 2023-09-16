@@ -12,7 +12,7 @@ const Post = ({ post }) => {
       </h3>
       <div className="mb-[1.25rem] flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-col tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
         <div>
-          <span className="text-black/50">Published </span>{" "}
+          <span className="text-black/80">Published </span>{" "}
           {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
         </div>
         <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
@@ -29,14 +29,14 @@ const Post = ({ post }) => {
       </div>
       <p className="card-text">{post.frontmatter.excerpt}</p>
 
-      <Link href={`/article/${post.slug}`} legacyBehavior>
-        <div>
-          <a className="hover:bg-[#B0C4DE] text-[#2a4cac] py-2 px-4 rounded cursor-pointer text-sm font-bold border-2 border-[#2a4cac]">
-            Read More
-          </a>
-          <span className="ml-2 text-black/50">&#183; {post.readingTime}</span>
-        </div>
+      <Link
+        href={`/article/${post.slug}`}
+        className="bg-charcoal text-white py-2 px-4 rounded cursor-pointer text-sm font-bold hover:text-yellow-300"
+        aria-label={`Read more about ${post.frontmatter.title}`}
+      >
+        See Full Article
       </Link>
+      <span className="ml-2 text-black/80">&#183; {post.readingTime}</span>
     </div>
   );
 };

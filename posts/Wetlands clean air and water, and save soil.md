@@ -6,7 +6,7 @@ Did you know the estimated Indiana wetlands, circa 1780, was 5.6 million acres o
 state? Today, there are 3.5% wetland acres in the State – a loss of 85% (IDNR, Indiana Wetlands
 Conservation Plan, June 1996). One million of these acres were in the Grand Kankakee Marsh
 (Jack Klasey, 2/2/19, Daily Journal, Kankakee, Illinois) which has been effectively lost today."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Wetlands clean air and water, and save soil.jpg"
 lat_lng: [40.5512, -85.6024]
 news_category: "Our Planet Earth Article"

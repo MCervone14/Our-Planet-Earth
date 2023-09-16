@@ -8,7 +8,7 @@ article is, “The Soil is Alive, Protecting Soil Biodiversity across Europe” 
 Commission, 5/22/08). Soils with high biodiversity can be noisy (Ute Eberle, 2/9/22, Life in the
 soil was thought to be silent. What if it isn’t? Living World). Franklin D. Roosevelt said, “A
 nation that destroys its soil, destroys itself.”"
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Save the Dirt.jpg"
 lat_lng: [53.3963, 62.9093]
 news_category: "Our Planet Earth Article"

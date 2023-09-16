@@ -6,7 +6,7 @@ fossil fuels for electricity, heat and transportation (U.S. Environmental Protec
 cause climate change by trapping heat, and have far-ranging environmental and health effects
 (National Geographic, Carbon dioxide levels are at a record high. Here’s what you need to know.
 Christina Nunez, 5/13/19). A simple way to help Our Mother Earth is to become carbon neutral."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Carbon Neutrality.jpg"
 lat_lng: [37.9715, -87.5715 ]
 news_category: "Our Planet Earth Article"

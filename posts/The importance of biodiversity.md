@@ -8,7 +8,7 @@ and biodiversity holds a treasure of genes that can offer many possibilities, es
 “humans are more at risk from diseases as biodiversity disappears” (John Platt, 12/7/10,
 Scientific American). So, we urge you to take to heart Pope Francis’ wisdom in his Chapter 1:
 Loss of Biodiversity."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/The importance of biodiversity.jpg"
 lat_lng: [45.2538, -69.4455]
 news_category: "Our Planet Earth Article"

@@ -7,7 +7,7 @@ on Earth? Without clean drinking water, we cannot survive. Polluted water can ca
 lead poisoning and many diseases. So why are our waterways and oceans being polluted? We
 urge you to take to heart Pope Francis’ wisdom in his Chapter 1: The Issue of Water. Our Mother
 Earth needs our help in stopping water unbalances, water shortages, and water pollution."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Water Quality Wisdom and Our Commitment for a Greener and Healthier World.jpg"
 lat_lng: [39.1031, -84.5120]
 news_category: "Our Planet Earth Article"

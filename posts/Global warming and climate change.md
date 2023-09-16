@@ -5,7 +5,7 @@ excerpt: "In previous articles, we’ve highlighted Pope Francis’ efforts in �
 many ecological principles. But there’s more, such as melting of the Earth’s permafrost; melting
 of glaciers and icebergs; and a reduction in albedo (reflectivity of the sun’s rays) by snow
 covered areas in the world."
-category: "Cry of the Poor"
+category: "Cry-of-the-Poor"
 cover_image: "/images/posts/Global warming and climate change.jpg"
 lat_lng: [40.7128, -74.0060 ]
 news_category: "Our Planet Earth Article"

@@ -7,7 +7,7 @@ Indiana coastline, including Indiana Dunes National Park. It was authorized by C
 as the Indiana Dunes National Lakeshore, and re-designated as the nation&#39;s 61st National Park
 Feb 15, 2019. Oceans, coastlines and the Great Lakes need protection because they are God’s
 gifts for our enjoyment and survival, and they affect people throughout the world."
-category: "Ecological Economics"
+category: "Ecological-Economics"
 cover_image: "/images/posts/Oceans, coastlines and the Great Lakes.jpg"
 lat_lng: [32.7158, -79.7893]
 news_category: "Our Planet Earth Article"

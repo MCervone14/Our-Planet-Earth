@@ -5,7 +5,7 @@ excerpt: "For nearly three years, this column in The Message has consistently gi
 driven and more eco-friendly. It has promoted “Laudato Si’” to all people and to all religions in the world, as
 requested by Pope Francis - including through his “Ten Commandments for Climate Change” (See What can we
 do section)."
-category: "Simple Lifestyles"
+category: "Simple-Lifestyles"
 cover_image: "/images/posts/Ten-eco-commandments-for-earth-citizens.jpg"
 lat_lng: [48.8566, 2.3522]
 news_category: "Our Planet Earth Article"

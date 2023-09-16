@@ -7,7 +7,7 @@ God in everything we do because He is guiding us to do the best for our planet E
 day-a-year event on Earth Day. It should be a daily requirement of our faith according to the United States
 Conference of Catholic Bishops, which says that, in that requirement, 'We show our respect for the Creator by
 our stewardship in protecting people and the planet, and to live our relationship with all of God’s creation.'"
-category: "Ecological Economics"
+category: "Ecological-Economics"
 cover_image: "/images/posts/Praise be to you, my Lord.jpg"
 lat_lng: [-33.4883, 149.5350]
 news_category: "Our Planet Earth Article"

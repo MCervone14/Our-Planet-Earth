@@ -15,7 +15,7 @@ const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   return (
-    <header className="bg-[steelblue] flex text-white p-5 px-[5rem] mobile:px-[3rem]">
+    <header className="bg-charcoal flex p-5 px-[5rem] mobile:px-[3rem]">
       <div className="mt-[.625rem] w-full flex items-center gap-2 ">
         <Link href="/" passHref>
           <Image
@@ -34,18 +34,18 @@ const Header = () => {
           Our Planet Earth
         </Link>
       </div>
-      <nav className="flex gap-[5rem] items-center justify-between">
+      <nav className="flex gap-[5rem] items-center justify-between font-bold">
         <Link
           href="/"
           passHref
-          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white font-bold "
         >
           Home
         </Link>
         <Link
           href="/articles"
           passHref
-          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
+          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white font-bold"
         >
           Articles
         </Link>

@@ -6,6 +6,7 @@ import Head from "next/head";
 import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 import dayjs from "dayjs";
+import Link from "next/link";
 
 const PostPage = ({
   slug,
@@ -18,17 +19,20 @@ const PostPage = ({
       <Head>
         <title>Our Planet Earth | {slug}</title>
       </Head>
-      <span onClick={() => router.back()}>
-        <a className="inline-block bg-[#B0C4DE] text-[#2a4cac] border-0 py-[.5rem] px-[1rem] ml-3 rounded cursor-pointer text-[1rem] font-bold hover:text-white mb-[1rem] mt-[2rem]">
+      <span>
+        <Link
+          href={`/articles`}
+          className="inline-block bg-charcoal text-white border-0 py-[.5rem] px-[1rem] ml-3 rounded cursor-pointer text-[1rem] font-bold hover:text-yellow-300 mb-[1rem] mt-[2rem]"
+        >
           Go Back
-        </a>
+        </Link>
       </span>
       <div className="py-[.9375rem] px-[1.875rem]">
         <h1 className="my-[.625rem] text-[2rem] mobile:text-[1rem] tablet:text-[1.5rem] desktop:text-[2rem] font-bold">
           {title}
         </h1>
         <div className="mb-[1.25rem] py-1">
-          <span className="text-black/50">Published on</span>{" "}
+          <span className="text-black/80">Published on</span>{" "}
           {dayjs(date).format("MMMM D, YYYY")}
         </div>
         <div className="tablet:w-[50rem] desktop:w-[60rem] text-center">
@@ -44,12 +48,13 @@ const PostPage = ({
         <div className="post-body tablet:w-[48rem] desktop:w-[60rem]">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           <span onClick={() => router.back()}>
-            <a
+            <Link
+              href={`/articles`}
               style={{ float: "right" }}
-              className="inline-block bg-[#B0C4DE] text-[#2a4cac] border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-white mb-[1.25rem]"
+              className="inline-block bg-charcoal text-white border-0 py-[.5rem] px-[1rem] rounded cursor-pointer text-[1rem] font-bold hover:text-yellow-300 mb-[1.25rem]"
             >
               Go Back
-            </a>
+            </Link>
           </span>
         </div>
       </div>

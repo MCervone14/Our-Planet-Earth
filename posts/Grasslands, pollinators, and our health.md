@@ -6,7 +6,7 @@ Grasslands go by different names. In the U.S. Midwest, they’re called prairies
 America, pampas; in Central Eurasia, steppes; and in Africa, savannas. What they all have in
 common are perennial, bunch grasses (little bluestem, big bluestem, Indiangrass) and
 wildflowers (milkweed, coneflowers, sunflowers)."
-category: "Ecological Economics"
+category: "Ecological-Economics"
 cover_image: "/images/posts/Grasslands, pollinators, and our health.jpg"
 lat_lng: [40.5121, -88.9948]
 news_category: "Our Planet Earth Article"

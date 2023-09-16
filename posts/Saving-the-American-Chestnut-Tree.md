@@ -3,7 +3,7 @@ title: "Saving the American Chestnut Tree"
 date: "2023-08-29"
 excerpt: "In 1904, a fungal disease, Cryphonectria parasitica, was introduced from Japanese chestnut trees brought into
 the Bronx Zoo. By the year 1906, 98% of the chestnut trees in the Bronx were infected. In 40 years, 4 billion American chestnuts perished."
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Saving-the-American-Chestnut-Tree.webp"
 lat_lng: [35.9940, -78.8986]
 news_category: "Our Planet Earth Article"

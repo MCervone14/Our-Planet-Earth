@@ -5,7 +5,7 @@ excerpt: "
 Did you know that, through years of soil degradation, nitrogen, phosphorus and sediments have
 run off into rivers that enter the Mississippi River creating a dead zone in the Gulf of Mexico the
 size of New Jersey (The Gulf of Mexico Dead Zone - SERC – Carleton, 10/15/2019)?"
-category: "Cry of the Earth"
+category: "Cry-of-the-Earth"
 cover_image: "/images/posts/Healthy soils reduce flooding, global warming and run-off.jpg"
 lat_lng: [28.7950, -91.1058]
 news_category: "Our Planet Earth Article"
@@ -67,8 +67,7 @@ strawberries, carrots, peppers, tomatoes, potatoes, lettuce, cabbage, eggplant, 
 
 ## What can we do?
 
-- Visit: https://www.waltonfamilyfoundation.org/stories/environment/farming-for-a-future-
-  of-healthy-soil-clean-water
+- Visit: https://www.waltonfamilyfoundation.org/stories/environment/farming-for-a-future-of-healthy-soil-clean-water
 - Visit: https://serc.carleton.edu/microbelife/topics/deadzone/index.html
 - Visit: https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb1082147.pdf
 - Visit: http://wordpress.iaswcd.org/

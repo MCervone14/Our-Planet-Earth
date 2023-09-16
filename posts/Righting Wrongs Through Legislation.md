@@ -5,7 +5,7 @@ excerpt: "
 Historically, we’ve learned much about righting wrongs to promote environmental protection. Two notable
 authors are Aldo Leopold (“A Sand County Almanac”) and Rachel Carson (“Silent Spring”). Both were helpful
 in passing legislation like:"
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/Righting Wrongs Through Legislation.jpg"
 lat_lng: [45.5019, -73.5674]
 news_category: "Our Planet Earth Article"

@@ -5,7 +5,7 @@ excerpt: "
 With much gratitude to Bishop Joseph M. Siegel, publisher of The Message, and Tim Lilley, editor, we
 celebrate two years of writing Our Mother Earth monthly. Every column is available by visiting
 https://evdiomessage.org/our-mother-earth/. Titles and dates for each are shown below."
-category: "Community Involvement"
+category: "Community-Involvement"
 cover_image: "/images/posts/Two-year anniversary of Our Mother Earth columns in The Message.jpg"
 lat_lng: [32.0319, -84.3936]
 news_category: "Our Planet Earth Article"

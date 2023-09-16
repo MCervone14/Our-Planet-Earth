@@ -6,7 +6,6 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 import { sortByDate } from "../lib/utils";
 
-//components
 import Post from "../components/Post";
 
 export default function Home({ posts }) {
@@ -18,9 +17,9 @@ export default function Home({ posts }) {
       <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem] ">
         Our Planet Earth
       </h1>
-      <h4 className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
+      <p className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
         Our journey to care for our planet earth!
-      </h4>
+      </p>
       <div className="flex flex-col">
         <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem] mobile:ml-0 mobile:text-[3rem]">
           Featured Articles
@@ -44,7 +43,7 @@ export default function Home({ posts }) {
       <Link
         href="/articles"
         passHref
-        className="flex w-[12rem] text-center m-auto bg-[#B0C4DE] text-[#2a4cac] border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-white my-[3.125rem]"
+        className="flex w-[12rem] text-center m-auto bg-charcoal hover:text-yellow-300 text-white border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold my-[3.125rem]"
       >
         See All Articles
       </Link>

@@ -5,7 +5,7 @@ excerpt: "A nature sanctuary is a protected area for animals, plants and natural
 we have three National Wildlife Refuges – Muscatatuck, Patoka River and Big Oaks. In
 Kentucky, there are two in our region – Green River and Clarks River. Also, we have many other
 parks, preserves, and natural areas."
-category: "Simple Lifestyles"
+category: "Simple-Lifestyles"
 cover_image: "/images/posts/Sanctuaries in nature.jpg"
 lat_lng: [38.3837, -87.3254]
 news_category: "Our Planet Earth Article"

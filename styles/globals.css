@@ -30,7 +30,7 @@ p {
 
 a {
   text-decoration: none;
-  color: steelblue;
+  color: blue;
 }
 
 a:hover {
@@ -58,10 +58,6 @@ ol li {
   -webkit-box-orient: vertical;
   white-space: normal;
   margin-left: 0.625rem;
-}
-
-.article-card:hover .title {
-  color: steelblue;
 }
 
 .post-title,

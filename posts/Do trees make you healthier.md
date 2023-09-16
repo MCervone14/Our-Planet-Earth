@@ -6,7 +6,7 @@ healthier?” This 6-year study (the first of its kind) will transform four neig
 Louisville with 8,000 trees. Trees, shrubs and other plants will be placed where they can best
 soak up lung-damaging pollution (James Bruggers, 10/26/17, Courier Journal). Trees give us
 oxygen to breathe; shade; sequester carbon dioxide from the atmosphere; and filter pollutants."
-category: "Ecological Education"
+category: "Ecological-Education"
 cover_image: "/images/posts/Do trees make you healthier.jpg"
 lat_lng: [38.2527, -85.7585]
 news_category: "Our Planet Earth Article"
