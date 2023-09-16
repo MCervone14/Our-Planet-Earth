@@ -11,8 +11,8 @@ const Post = ({ post }) => {
         {post.frontmatter.title}
       </h3>
       <div className="mb-[1.25rem] flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-col tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
-        <div>
-          <span className="text-black/80">Published </span>{" "}
+        <div className="text-xs">
+          <span className="text-black/80 text-xs">Published </span>{" "}
           {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}
         </div>
         <CategoryLabel>{post.frontmatter.category}</CategoryLabel>

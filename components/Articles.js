@@ -25,18 +25,14 @@ const Articles = ({ post, id, compact, searchTerm }) => {
 
   return (
     <div className="article-card flex items-center mb-[1.25rem]  mobile:flex-col tablet:flex-col laptop:flex-col desktop:flex-row">
-      <div>
-        {!compact && (
-          <Image
-            objectFit="cover"
-            height="200"
-            width="300"
-            layout="fixed"
-            src={post.frontmatter.cover_image}
-            alt={post.frontmatter.title}
-            className="z-[-1]"
-          />
-        )}
+      <div className="z-[-1]">
+        <Image
+          objectFit="cover"
+          height="200"
+          width="300"
+          src={post.frontmatter.cover_image}
+          alt={post.frontmatter.title}
+        />
       </div>
       <div>
         <Link href={`/article/${post.slug}`} passHref legacyBehavior>

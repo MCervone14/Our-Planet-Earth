@@ -17,7 +17,6 @@ const articles = ({ posts, categories }) => {
       <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem]">
         Our Planet Earth Articles
       </h1>
-      {/* <CategoryList categories={categories} /> */}
       <div className="w-[60%] p-10 my-[1.25rem] mx-auto mobile:w-[100%]">
         {posts.map((post, index) => (
           <Articles

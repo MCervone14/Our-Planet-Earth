@@ -86,29 +86,27 @@ const Search = () => {
 
   return (
     <div className="bg-[steelblue]/20 p-4 pr-8 flex mobile:flex-col desktop:flex-row items-center justify-between sticky top-0 backdrop-blur-3xl z-100 gap-10">
-      <div className="flex items-center justify-around w-full mt-2">
+      <div className="flex items-center justify-around w-full mt-2 z-100">
         <ul className="grid gap-5 mobile:grid-cols-4 tablet:grid-cols-4 laptop:grid-cols-4 desktop:grid-cols-8">
           {categoryIcons.map((icon, index) => (
-            <li
-              className="list-none"
-              onClick={(e) => setActiveLabel(icon.label)}
-              key={index}
-            >
+            <li className="list-none rounded-full z-100" key={index}>
               <Link
                 href={
                   icon.label.toLowerCase() === "all-action-platforms"
                     ? "/articles"
                     : `/articles/category/${icon.label.toLowerCase()}`
                 }
+                className="rounded-full z-100"
               >
                 <Image
                   src={icon.url}
                   width={100}
                   height={50}
-                  className={`z-100 cursor-pointer border-4 hover:opacity-90 pointer-events-auto rounded-full border-[steelblue]/0 bg-cover ${
+                  onClick={(e) => setActiveLabel(icon.label)}
+                  className={`cursor-pointer border-4 hover:opacity-90 rounded-full border-[steelblue]/0 z-100 ${
                     icon.label.toLowerCase() === activeLabel
                       ? "border-[steelblue]/100"
-                      : null
+                      : ""
                   }`}
                   alt={icon.label}
                 />
