@@ -1,5 +1,5 @@
 
-<h1>Our Planet Earth (Originally Our Mother Earth)</h1>
+<h1>Our Planet Earth</h1>
 
 ## Table of Contents
 
@@ -26,16 +26,16 @@ Our Planet Earth was my first project into front-end web development. It was an 
 - [Next.js](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/) 
 - [Hosted on Vercel](https://vercel.com/) 
-- [React Three Fiber]("https://docs.pmnd.rs/react-three-fiber/getting-started/introduction")
-
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+  
 ## Purpose
 
 Our Planet Earth was made to bring awareness to climate change through blog posts. We promote clean air, clean water, and healthy soils; a greener world; sustainable practices; renewable energy; and conservation of worldwide ecosystems.
 
 ## Contact
 
-- [Github]("https://github.com/MCervone14")
-- [My Portfolio]("https://mcervone14.github.io/portfolio/") 
+- [Github](https://github.com/MCervone14)
+- [My Portfolio](https://mcervone14.github.io/portfolio/) 
 
 ## Acknowledgements
 
