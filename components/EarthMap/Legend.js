@@ -1,8 +1,15 @@
 import Image from "next/image";
 
+/* Documentation for Legend.js file
+
+  Legend component for the Globe.
+  It displays the legend for the markers on the globe.
+
+*/
+
 const Legend = () => {
   return (
-    <div className="absolute z-100 right-2 bottom-5 bg-[steelblue] px-1 pb-1 rounded-md text-black bg-opacity-70">
+    <div className="absolute z-100 right-12 bottom-2 bg-[steelblue] px-1 pb-1 rounded-md text-black bg-opacity-70">
       <p className="flex items-center gap-5 m-0 p-0 py-1 text-xs">
         <span>
           <Image

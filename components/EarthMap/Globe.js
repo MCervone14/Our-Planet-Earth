@@ -4,9 +4,18 @@ import { useTexture, Sphere } from "@react-three/drei";
 import vertexShader from "../../public/shaders/vertex.glsl";
 import fragmentShader from "../../public/shaders/fragment.glsl";
 
+/* Documentation for Globe.js file
+
+  It takes the mapTexture and applies it to the sphere.
+  the shaderMaterial is used to apply the vertex and fragment shaders to the sphere.
+
+  uses react-three/drei -> https://github.com/pmndrs/drei
+
+*/
+
 const Globe = () => {
   const globe = useRef();
-  const mapTexture = useTexture("/earthMap10k.jpg");
+  const mapTexture = useTexture("/earthmap1k.jpg");
 
   const uniforms = useMemo(
     () => ({

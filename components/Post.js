@@ -1,16 +1,23 @@
 import Link from "next/link";
 import Image from "next/legacy/image";
 import dayjs from "dayjs";
-
 import CategoryLabel from "./CategoryLabel";
+
+/* Documentation for Post.js file
+
+  Post component for the website.
+
+  It is used to display the article in a card format.
+ 
+*/
 
 const Post = ({ post }) => {
   return (
     <div className="pt-3 pb-6 px-5 rounded-lg shadow-2 bg-white min-w-[20rem]">
-      <h3 className="post-title mobile:text-[1rem] tablet:text-[1rem] laptop:text-[1.25rem] desktop:text-[1.5rem] font-bold m-0">
+      <h3 className="post-title mobile:text-lg tablet:text-lg laptop:text-2xl desktop:text-2xl font-bold m-0">
         {post.frontmatter.title}
       </h3>
-      <div className="mb-[1.25rem] flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-col tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
+      <div className="mb-5 flex items-center justify-between laptop:flex-col laptop:gap-3 laptop:items-start tablet:flex-col tablet:justify-between mobile:flex-col mobile:items-start mobile:gap-3">
         <div className="text-xs">
           <span className="text-black/80 text-xs">Published </span>{" "}
           {dayjs(post.frontmatter.date).format("MMMM D, YYYY")}

@@ -1,69 +1,41 @@
 import Link from "next/link";
-
-import Image from "next/legacy/image";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import Logo from "./Logo";
+
+/* Documentation for Header.js file
+
+  Header component for the website. Its at the top of every page.
+
+  It contains the logo and navigation bar. 
+  The links array contains the links for the navigation bar. Add more links there.
+  
+  I use headlessui -> https://headlessui.com/react/menu for the mobile navigation menu.
+ 
+*/
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/articles", label: "Articles" },
-  { href: "/ourplanet", label: "Global News" },
-  { href: "/authors", label: "Team" },
+  { id: 1, href: "/", label: "Home" },
+  { id: 2, href: "/articles", label: "Articles" },
+  { id: 3, href: "/ourplanet", label: "Global News" },
+  { id: 4, href: "/authors", label: "Team" },
 ];
 
 const Header = () => {
-  const [menuVisible, setMenuVisible] = useState(false);
-
   return (
-    <header className="bg-charcoal flex p-5 px-[5rem] mobile:px-[3rem]">
-      <div className="mt-[.625rem] w-full flex items-center gap-2 ">
-        <Link href="/" passHref>
-          <Image
-            src="/images/earth64.png"
-            width={64}
-            height={64}
-            alt="logo"
-            className="text-[2rem] cursor-pointer font-[Tangerine] "
-          />
-        </Link>
-        <Link
-          href="/"
-          passHref
-          className="font-[Tangerine] text-[3rem] hover:text-[gold] cursor-pointer text-white mobile:hidden"
-        >
-          Our Planet Earth
-        </Link>
-      </div>
-      <nav className="flex gap-[5rem] items-center justify-between font-bold">
-        <Link
-          href="/"
-          passHref
-          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white font-bold "
-        >
-          Home
-        </Link>
-        <Link
-          href="/articles"
-          passHref
-          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white font-bold"
-        >
-          Articles
-        </Link>
-        <Link
-          href="/ourplanet"
-          passHref
-          className="cursor-pointer text-center hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
-        >
-          Global News
-        </Link>
-        <Link
-          href="/authors"
-          passHref
-          className="cursor-pointer hover:text-[gold] desktop:visible laptop:visible mobile:hidden tablet:hidden text-white"
-          onClick={() => {}}
-        >
-          Team
-        </Link>
+    <header className="bg-charcoal flex p-5 px-20 mobile:px-12">
+      <Logo />
+      <nav className="flex gap-20 items-center justify-between font-bold">
+        {links.map((link) => (
+          <Link
+            key={link.id}
+            href={link.href}
+            passHref
+            className="cursor-pointer hover:text-yellow-300 desktop:visible laptop:visible mobile:hidden tablet:hidden text-white font-bold"
+          >
+            {link.label}
+          </Link>
+        ))}
         <div className="mobile:visible mobile:mx-auto tablet:visible laptop:hidden desktop:hidden text-white">
           <Menu as="div" className="relative inline-block text-left z-50">
             <div className="z-100">

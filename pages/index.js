@@ -6,44 +6,55 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 import { sortByDate } from "../lib/utils";
 
+/* Documentation for index.js file
+
+  Page for displaying the homepage featured and recent blog articles.
+  The page is divided into two sections: the featured  and recent.
+
+  The featured section displays the first three articles in the posts array.
+  The recent section displays the next six articles in the posts array.
+*/
+
 import Post from "../components/Post";
 
 export default function Home({ posts }) {
   return (
     <div className="container">
       <Head>
-        <title>Our Planet Earth | Home</title>
+        <title>Home | Our Planet Earth</title>
       </Head>
-      <h1 className="text-[steelblue] mt-[4rem] font-bold font-[Tangerine] text-center text-[7rem] mobile:text-[3rem] ">
+      <h1 className="text-[steelblue] mt-16 font-bold font-[Tangerine] text-center text-9xl mobile:text-5xl ">
         Our Planet Earth
       </h1>
-      <p className="font-['Open Sans'] font-light text-[2rem] mb-[1.875rem] text-center mobile:text-[1rem]">
+      <p className="font-['Open Sans'] font-light text-3xl mb-7 text-center mobile:text-lg">
         Our journey to care for our planet earth!
       </p>
-      <div className="flex flex-col">
-        <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem] mobile:ml-0 mobile:text-[3rem]">
+      <section className="flex flex-col">
+        <h2 className="text-[steelblue] font-[Tangerine] mt-10 ml-36 text-7xl mobile:ml-0 mobile:text-4xl">
           Featured Articles
         </h2>
-        <div className="mx-[9rem] mt-[15px] grid grid-cols-3 gap-[3.125rem] mobile:grid-cols-1 mobile:m-7  tablet:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3">
+        <div className="mx-36 mt-4 grid grid-cols-3 gap-12 mobile:grid-cols-1 mobile:m-7  tablet:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3">
           {posts
             .map((post, index) => (
               <Post key={index} post={post} readingTime={readingTime} />
             ))
             .slice(0, 3)}
         </div>
-      </div>
-      <h2 className="text-[steelblue] font-[Tangerine] mt-[3.125rem] ml-[9rem] text-[5rem] mobile:text-[3rem] mobile:ml-0">
-        Recent Articles
-      </h2>
-      <div className="grid grid-cols-3 gap-[3.125rem] mt-[.9375rem] mobile:m-7 tablet:grid-cols-1 mobile:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 mx-[9rem]">
-        {posts
-          .map((post, index) => <Post key={index} post={post} />)
-          .slice(3, 9)}
-      </div>
+      </section>
+      <section>
+        <h2 className="text-[steelblue] font-[Tangerine] mt-10 ml-36 text-7xl mobile:text-4xl mobile:ml-0">
+          Recent Articles
+        </h2>
+        <div className="grid grid-cols-3 gap-12 mt-4 mobile:m-7 tablet:grid-cols-1 mobile:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 mx-36">
+          {posts
+            .map((post, index) => <Post key={index} post={post} />)
+            .slice(3, 9)}
+        </div>
+      </section>
       <Link
         href="/articles"
         passHref
-        className="flex w-[12rem] text-center m-auto bg-charcoal hover:text-yellow-300 text-white border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold my-[3.125rem]"
+        className="flex justify-center text-center w-48 m-auto bg-charcoal hover:text-yellow-300 text-white border-0 p-5 rounded cursor-pointer text-md font-bold my-10"
       >
         See All Articles
       </Link>

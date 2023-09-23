@@ -16,7 +16,21 @@ import { createPoint } from "../lib/utils";
 import MapMarker from "../components/EarthMap/MapMarker";
 import Legend from "../components/EarthMap/Legend";
 import ArticleItem from "../components/ArticleItem";
-import RelatedNewsArticleItem from "../components/RelatedNewsArticleItem";
+
+/* Documentation for ourplanet.js file
+
+  Page for displaying the globe, markers, and active post in the Global News section of Our Planet Earth.
+  The page is divided into two sections: the globe and the article.
+
+  The globe uses a plugin called react-three-fiber/drei -> "https://github.com/pmndrs/drei", which is based on three.js -> https://threejs.org/.
+
+  For the globe section, you will only really be messing with the MapMarker component, which is where the markers are created and displayed on the globe.
+  The article section is a simple article item component that displays the article content when hovered.
+
+  TODO: issues are with the markers not working well with mobile, since I have coded it as a hover event instead of also a click.
+  TODO: Once "clicked", the screen doesn't move down to view article, so user has to scroll down to see it. Need to find a way to make it scroll down to article. 
+  TODO: Need to find a way to make the markers dynamically bigger when zooming out and vice versa when zooming in.
+*/
 
 extend({ Globe });
 
@@ -32,16 +46,16 @@ const OurPlanet = ({ posts, relatedNewsPosts }) => {
   return (
     <div className="flex-col h-[100vh]">
       <Head>
-        <title>Our Planet Earth | Global News </title>
+        <title>Global News | Our Planet Earth</title>
       </Head>
       <Suspense fallback={<Loader />}>
         <div>
-          <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem] my-12">
+          <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-8xl tablet:text-7xl mobile:text-4xl my-12">
             Everything is Connected!
           </h1>
         </div>
         <div className="flex w-full h-full mobile:flex-col mobile:gap-10">
-          <div className="w-1/2 relative mobile:w-[85%] mobile:mx-auto mobile:h-1/2">
+          <section className="w-1/2 relative mobile:w-[85%] px-10 mobile:mx-auto mobile:h-1/2">
             <Canvas dpr={[1, 2]}>
               <PerspectiveCamera makeDefault position={[0, 1, 14]} />
               <OrbitControls
@@ -82,11 +96,11 @@ const OurPlanet = ({ posts, relatedNewsPosts }) => {
               ))}
             </Canvas>
             <Legend />
-          </div>
-          <div className="w-1/2 flex justify-center items-center mobile:w-full">
-            <div className="flex justify-center items-center ">
+          </section>
+          <section className="w-1/2 flex justify-center items-center mobile:w-full">
+            <div className="flex justify-center items-center">
               {!hoveredPost && (
-                <div className="border-2 border-[#2a4cac] rounded w-full justify-center items-center px-2 mobile:mx-10">
+                <div className="border-2 border-charcoal rounded justify-center items-center px-2 mobile:mx-10">
                   <p className="text-sm text-center">
                     You can use mouse to rotate globe! To zoom in/out use mouse
                     wheel while hovering over globe.
@@ -98,14 +112,14 @@ const OurPlanet = ({ posts, relatedNewsPosts }) => {
               )}
             </div>
             {activePost && hoveredPost !== null ? (
-              <div className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden scrollbar">
+              <article className="animate-in slide-in-from-bottom h-full overflow-scroll overflow-x-hidden scrollbar">
                 <ArticleItem
                   frontmatter={hoveredPost.frontmatter}
                   content={hoveredPost.content}
                 />
-              </div>
+              </article>
             ) : null}
-          </div>
+          </section>
         </div>
       </Suspense>
     </div>

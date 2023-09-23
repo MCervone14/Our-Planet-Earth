@@ -1,6 +1,18 @@
 import React from "react";
 import Articles from "./Articles";
 
+/* Documentation for SearchResult.js file
+
+  Modal for displaying the search results.
+  It is displayed when the user clicks on the search bar and starts typing.
+
+  It takes in the results, searchTerm, and isShowing props from the Search Component.
+
+  It maps through the results and displays the Articles Component for each result. It also passes in a compact boolean prop to the Articles Component, 
+  which is used to display the article in a compact form (without image, date, category etc.).
+ 
+*/
+
 const SearchResults = ({ results, searchTerm, isShowing }) => {
   if (results.length === 0 || "") return <></>;
 

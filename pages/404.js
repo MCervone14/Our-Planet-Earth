@@ -1,25 +1,31 @@
 import React from "react";
-import Link from "next/link";
 import Head from "next/head";
+import Link from "next/link";
+
+/* Documentation for 404.js file
+
+  Page for displaying the 404 page not found.
+ 
+*/
 
 const PageNotFound = () => {
   return (
-    <div>
+    <div className="h-[100vh] flex justify-center items-center flex-col">
       <Head>
-        <title>Our Planet Earth | 404 Error</title>
+        <title>404 Page | Our Planet Earth</title>
       </Head>
-      <h1 className="mt-[15rem] text-[10rem] text-center font-[Tangerine] text-[steelblue]">
+      <h1 className="text-5xl tablet:text-7xl laptop:text-8xl desktop:text-9xl font-[Tangerine] text-[steelblue]">
         Our Planet Earth
       </h1>
-      <h2 className="text-center text-[2rem] text-black/40">
-        Sorry, your page was not found
-      </h2>
+      <p className="text-2xl tablet:text-3xl laptop:text-3xl desktop:text-4xl text-black/40">
+        Sorry, this page does not exist.
+      </p>
       <Link
         href="/"
         passHref
-        className="flex w-[12rem] text-center m-auto bg-[#B0C4DE] text-[#2a4cac] border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-white my-[3.125rem]"
+        className="flex justify-center text-center w-48 m-auto bg-charcoal hover:text-yellow-300 text-white border-0 p-5 rounded cursor-pointer text-md font-bold my-10"
       >
-        Return to Homepage?
+        Return to Home?
       </Link>
     </div>
   );

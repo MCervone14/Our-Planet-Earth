@@ -2,6 +2,13 @@ import { Image } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { useRef, useState } from "react";
 
+/* Documentation for MapMarker.js file
+
+  It takes the position of the marker and the post data to display the marker on the globe.
+
+
+*/
+
 const MapMarker = ({ position, post, getHoverPost, setActivePost }) => {
   const { x, y, z } = position;
   const [isHovered, setIsHovered] = useState(false);

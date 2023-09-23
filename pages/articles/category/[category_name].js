@@ -5,10 +5,18 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
-import CategoryList from "../../../components/CategoryList";
 import Articles from "../../../components/Articles";
 import { capitalizeCategory, sortByDate } from "../../../lib/utils";
 import Search from "../../../components/Search";
+
+/* Documentation for [category_name].js file
+
+  Page for displaying the articles in a specific category.
+  
+  The page is divided into two sections: the search bar in the Search Component and the articles related to that category.
+  The articles are filtered by the category name in the getStaticProps function.
+ 
+*/
 
 const Category = ({ posts, categoryName }) => {
   const capitalizeCat = `${capitalizeCategory(
@@ -21,21 +29,23 @@ const Category = ({ posts, categoryName }) => {
         <title>{capitalizeCat}</title>
       </Head>
       <Search />
-      <h1 className="text-[steelblue] font-bold font-[Tangerine] text-center text-[6.25rem] tablet:text-[5rem] mobile:text-[2.5rem]">
-        {capitalizeCategory(categoryName)} Articles
-      </h1>
-      <div className="w-[60%] p-10 my-[1.25rem] mx-auto mobile:w-[100%]">
-        {posts.map((post, index) => (
-          <Articles key={index} id={index} post={post} />
-        ))}
-      </div>
-      <Link
-        href="/articles"
-        passHref
-        className="flex w-[12rem] text-center m-auto bg-charcoal text-white border-0 px-[1.25rem] py-[1.25rem] rounded cursor-pointer text-[1.25rem] font-bold hover:text-yellow-300 my-[3.125rem]"
-      >
-        See All Articles
-      </Link>
+      <section>
+        <h1 className="text-[steelblue] font-bold font-[Tangerine] pt-12 text-center text-8xl tablet:text-7xl mobile:text-5xl">
+          {capitalizeCategory(categoryName)} Articles
+        </h1>
+        <div className="w-[60%] p-10 my-5 mx-auto mobile:w-[100%]">
+          {posts.map((post, index) => (
+            <Articles key={index} id={index} post={post} />
+          ))}
+        </div>
+        <Link
+          href="/articles"
+          passHref
+          className="flex w-48 text-center m-auto bg-charcoal text-white border-0 p-5 rounded cursor-pointer text-xl font-bold hover:text-yellow-300 my-12"
+        >
+          See All Articles
+        </Link>
+      </section>
     </>
   );
 };
