@@ -19,28 +19,28 @@ Our Planet Earth
 **_Author’s note_**: _This worldwide website encourages, inspires, and informs citizens to act now, and to practice
 ecological principles in our journey On Care for Our Common Home._
 
-# Introduction
+## <u>Introduction</u>
 
-Did you know July 2023 was hotter than any other month on record as felt by billions around the world.
+Did you know [July 2023 was hotter than any other month on record](https://www.nasa.gov/press-release/nasa-clocks-july-2023-as-hottest-month-on-record-ever-since-1880) as felt by billions around the world?
 Throughout the country, Americans are now experiencing firsthand, the effects of climate change. To address
 this issue, the Inflation Reduction Act was signed into law by President Joe Biden on August 16, 2022. The
 National Aeronautics and Space Administrator Bill Nelson says, “The science is clear. We must act now to
 protect our communities and planet; it’s the only one we have.”
 
-Scientists have warned us for decades about global warming and climate change.“A recent report from the
-United Nations’ Intergovernmental Panel on Climate Change underscored the need for international action  to
+Scientists have warned us for decades about global warming and climate change. “A recent report from the
+United Nations’ Intergovernmental Panel on Climate Change [underscored the need for international action](https://www.ipcc.ch/report/sixth-assessment-report-cycle/) to
 avoid increasingly severe climate impacts in the years to come. Steps outlined in the report, and by climate
 experts, include major reductions in greenhouse gas emissions from sectors such as energy production and
 transportation.” How Americans feel about climate change, and what steps they think the United States should
-take may be found at the Pew Research Center . With a  majority of people  aware of the calamitous threats posed
+take may be found at the [Pew Research Center](https://www.pewresearch.org/short-reads/2023/08/09/what-the-data-says-about-americans-views-of-climate-change/). With a  [majority of people](https://www.pewresearch.org/global/2022/08/31/climate-change-remains-top-global-threat-across-19-country-survey/)  aware of the calamitous threats posed
 by climate change, Cardinal Michael Czerny at Gonzaga University said, “the real problem now is not
 convincing people that it&#39;s happening, but rather indifference and despair in the face of that reality.”
 
 Knowing our actions affect ourselves, families, and many generations to come, it’s our duty to prevent getting
-to a “tipping” point of no return as said by the Dalai Lama . At this time, our only living smart option is to live in
+to a “tipping” point of no return as said by the [Dalai Lama](https://xrpdx.org/tipping-points-and-greta-and-the-dalai-lama-oh-my/). At this time, our only living smart option is to live in
 a way that maximizes our returns.
 
-## What Can You Do?
+## <u>What Can You Do?</u>
 
 **Reduce Greenhouse Gases escaping into the Atmosphere** - Methods include: transforming our energy needs
 from non-renewable to renewable; slowly reduce the number of miles we travel in cars, trucks, planes, or trains;
@@ -52,12 +52,12 @@ call distant friends and family; and turn our properties into park like and gree
 decrease. Thus, it is most important that we reduce impervious surfaces and increase soft green surfaces for
 water absorption, percolation, and raise groundwater levels and their quality. We need also to increase no-till
 farming and use of cover crops year round, since we can not afford to waste water through run-off that increases
-soil erosion, and chemical contamination in streams, rivers and oceans. Be concerned about soil health, and
-capturing rainwater for other uses .
+soil erosion, and chemical contamination in streams, rivers and oceans.
+[Be concerned about soil health, and capturing rainwater for other uses](https://www.epa.gov/soakuptherain/what-you-can-do-soak-rain).
 
 **Live a Simpler Life with Fewer Needs** - We have Our Planet Earth to nurture us. Treat the Earth respectfully,
 and be active outside during the day when it is cooler. At your home, maybe use a basement in summer and
-upstairs in winter. In addition, insulate walls and attic; use curtains and blinds, and shade your property well
+upstairs in winter. In addition, insulate walls and attic; use curtains and blinds, and [shade your property](https://www.cancercouncil.com.au/cancer-prevention/sun-protection/preventing-skin-cancer/shade/) well
 with trees to keep cool in summer, and warm in winter. Also, consider using energy-efficient windows and take
 advantage of the aspect of your home, where generally the south-facing side is hotter than north-facing, and
 west-facing is warmer than east-facing. Living smart is very important.
