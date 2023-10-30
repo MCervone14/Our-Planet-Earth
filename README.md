@@ -35,7 +35,7 @@ Our Planet Earth was made to bring awareness to climate change through blog post
 ## Contact
 
 - [Github](https://github.com/MCervone14)
-- [My Portfolio](https://mcervone14.github.io/portfolio/) 
+- [My Portfolio](https://github.com/MCervone14/Portfolio-Website) 
 
 ## Acknowledgements
 

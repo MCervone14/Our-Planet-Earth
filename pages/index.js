@@ -38,7 +38,8 @@ export default function Home({ posts }) {
             .map((post, index) => (
               <Post key={index} post={post} readingTime={readingTime} />
             ))
-            .slice(0, 3)}
+            .slice(-3)
+            .reverse()}
         </div>
       </section>
       <section>
@@ -48,7 +49,8 @@ export default function Home({ posts }) {
         <div className="grid grid-cols-3 gap-12 mt-4 mobile:m-7 tablet:grid-cols-1 mobile:grid-cols-1 laptop:grid-cols-2 desktop:grid-cols-3 mx-36">
           {posts
             .map((post, index) => <Post key={index} post={post} />)
-            .slice(3, 9)}
+            .slice(27, 33)
+            .reverse()}
         </div>
       </section>
       <Link

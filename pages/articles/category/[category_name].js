@@ -34,9 +34,11 @@ const Category = ({ posts, categoryName }) => {
           {capitalizeCategory(categoryName)} Articles
         </h1>
         <div className="w-[60%] p-10 my-5 mx-auto mobile:w-[100%]">
-          {posts.map((post, index) => (
-            <Articles key={index} id={index} post={post} />
-          ))}
+          {posts
+            .map((post, index) => (
+              <Articles key={index} id={index} post={post} />
+            ))
+            .reverse()}
         </div>
         <Link
           href="/articles"
