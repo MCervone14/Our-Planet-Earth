@@ -60,6 +60,8 @@ greatly in controlling erosion and keeping chemicals and sediments from entering
 A [two-stage ditch helps keep water clear and limits the input of farm chemicals](https://www.indianawatershedinitiative.com/uploads/8/0/9/5/80953414/davis_et_al_2015.pdf). Such ditches have benches that are [planted with grasses that significantly absorb or reduce phosphorus concentrations and reduce turbidity](https://www.indianawatershedinitiative.com/uploads/8/0/9/5/80953414/mahl_et_al_2015.pdf). Nitrogen removal was also increased especially when benches were flooded. These two-stage ditches act similar to
 a constructed wetland for wastewater treatment.
 
+<iframe width="800" height="500" src="https://www.youtube.com/embed/jyYIqR5jCls?si=CVo--V62cKfPgxfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Quote:
 
 > “Essentially, all life depends upon the soil… There can be no life without soil and no soil without life; they
