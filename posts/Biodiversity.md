@@ -2,7 +2,7 @@
 title: "Biodiversity"
 date: "2023-11-25"
 excerpt: "
-DBiodiversity includes richness or the number of species, including the identity, dominance, and rarity of these
+Biodiversity includes richness or the number of species, including the identity, dominance, and rarity of these
 species. Did you know the main driver in the loss of biodiversity remains in humans’ use of land primarily for food
 production with humans altering over 70% of all ice-free land? When land is converted for agriculture or
 development, animals and plants lose their habitat. We, as stewards and ambassadors of planet Earth, need to avoid
