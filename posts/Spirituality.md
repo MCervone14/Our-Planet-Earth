@@ -44,7 +44,7 @@ into the Senate with Senators Braun (IN-R) and Schatz (D-HI) serving as cosponso
 the importation of products made wholly or in part of certain commodities produced on land undergoing illegal
 deforestation.
 
-## What Can You Do?
+## **What Can You Do?**
 
 **Pray for an Ecological Conversion** - An example is when St. Pope John Paul II hosted 60 different religions at
 Assisi, Italy in 1986 to pray for peace. It brought together different religions under one purpose, to love each
@@ -58,7 +58,7 @@ change in the world is to purchase land and keep it in a natural state in perpet
 
 **Get Involved in a Community, State or Federal Government** - Our governments have elected officials. Let’s
 tell them how we feel about issues. One way is to support the FOREST Act of 2023. You can do this by
-acknowledging Senator Michael Braun and Senator Brian Schatz for cosponsoring it, and contacting the World
+acknowledging Senator Mike Braun and Senator Brian Schatz for cosponsoring it, and contacting the World
 Wildlife Fund (lauren.gleason@wwfus.org) or Environmental Investigation Agency U.S. (dstilley@eia-global.org) for more information. Reach out to them respectfully!
 
 <iframe width="800" height="500" src="https://www.youtube.com/embed/6Yk1pGlOGzw?si=9hxnicnN7Le0n43k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -70,6 +70,8 @@ Quote:
 
 _Dr. Tom Cervone is a deacon and ecologist in the Evansville Diocese. He graduated from St. Bonaventure, a
 Franciscan University. Sister Maureen Houlihan D.C. is a member of the “Care of Earth” Committee - St.
-Louise Province of the Daughters of Charity USA. Nicole Cervone-Gish, Ed. MS. is an English Language
-Learner teacher, who lives in Evansville, Indiana with her family, and teaches at Joshua Academy Charter
-School. Michael Cervone, BS. a web developer who lives in Evansville, Indiana._
+Louise Province of the Daughters of Charity USA and member of Seton Harvest Farm, a Community Supported
+Agriculture Farm that grows all natural produce for shareholders and the poor. Nicole Cervone-Gish, Ed. MS.
+is an English Language Learner teacher, who lives in Evansville, Indiana with her family, and teaches at
+Joshua Academy Charter School. Michael Cervone, BS. is a web developer and designer who lives in
+Evansville, Indiana._
