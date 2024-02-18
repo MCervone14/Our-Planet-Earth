@@ -7,16 +7,16 @@ module.exports = {
     "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
-    screens: {
-      mobile: { min: "360px", max: "767px" },
-      tablet: { min: "768px", max: "1023px" },
-      laptop: { min: "1024px", max: "1374px" },
-      desktop: "1375px",
-    },
-    colors: {
-      charcoal: "#345C7F",
-    },
     extend: {
+      colors: {
+        charcoal: "#345C7F",
+      },
+      screens: {
+        mobile: { min: "360px", max: "767px" },
+        tablet: { min: "768px", max: "1023px" },
+        laptop: { min: "1024px", max: "1374px" },
+        desktop: "1375px",
+      },
       boxShadow: {
         2: "0 4px 8px 0 rgba(0, 0, 0, 0.5)",
       },
