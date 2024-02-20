@@ -2,13 +2,27 @@ import { useRef, useEffect, useState } from "react";
 import { select, geoPath, geoEquirectangular, min, max, scaleLinear } from "d3";
 import useResizeObserver from "../hooks/useResizeObserver";
 
-const GeoChart = ({ data, property }) => {
+const GeoChart = ({ data, property, isShowWidget }) => {
   const svgRef = useRef();
   const wrapperRef = useRef();
   const dimensions = useResizeObserver(wrapperRef);
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
-  const [tooltipContent, setTooltipContent] = useState("");
+  const [tooltipContent, setTooltipContent] = useState({
+    name: "",
+    population: "",
+    population_rank: "",
+    economy: "",
+    income_grp: "",
+  });
+
+  if (selectedCountry !== null) {
+    isShowWidget(() => false);
+  }
+
+  if (selectedCountry === null) {
+    isShowWidget(() => true);
+  }
 
   // will be called initially on page load and on every data change after.
   useEffect(() => {
@@ -56,7 +70,13 @@ const GeoChart = ({ data, property }) => {
       .on("mouseenter", (event, feature) => {
         const [x, y] = pathGenerator.centroid(feature);
         setTooltipPosition({ x, y });
-        setTooltipContent(feature.properties.name);
+        setTooltipContent({
+          name: feature.properties.name,
+          population: feature.properties.pop_est,
+          population_rank: feature.properties.pop_rank,
+          economy: feature.properties.economy,
+          income_grp: feature.properties.income_grp,
+        });
       })
       .on("mouseleave", () => {
         setTooltipContent("");
@@ -92,11 +112,15 @@ const GeoChart = ({ data, property }) => {
       {tooltipContent && (
         <div className="tooltip-container">
           <text
-            className="tooltip text-2xl text-bold "
+            className="tooltip text-2xl text-bold"
             x={tooltipPosition.x}
             y={tooltipPosition.y}
           >
-            {tooltipContent}
+            <p>{tooltipContent.name}</p>
+            <p>Population: {tooltipContent.population}</p>
+            <p>Population Rank: {tooltipContent.population_rank}</p>
+            <p>Economy: {tooltipContent.economy}</p>
+            <p>Income Group: {tooltipContent.income_grp}</p>
           </text>
         </div>
       )}
