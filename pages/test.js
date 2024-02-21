@@ -1,7 +1,5 @@
 import MapBoxGlobe from "../components/MapBox-Globe";
 
-import { useState } from "react";
-
 const Test = () => {
   return (
     <div>

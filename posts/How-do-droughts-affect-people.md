@@ -8,7 +8,7 @@ hunger, malnutrition and disease, huge displacements of people, and shattered ec
 USA for United Nations High Commissioner for Refugees , more than 4.2 million people have been displaced
 across the region; 3.7 million people have been internally displaced; and more than 10 million children are in
 need of humanitarian assistance. Climate change could bring about even more consequences."
-category: "Cry-of-the-Earth"
+category: "Cry-of-the-Poor"
 cover_image: "/images/posts/How-Do-Droughts-Affect-People.jpg"
 lat_lng: [19.0643, 13.5437]
 news_category: "Our Planet Earth Article"

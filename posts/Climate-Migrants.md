@@ -3,7 +3,7 @@ title: "Climate Migrants"
 date: "2023-07-27"
 excerpt: "
 The International Catholic Migration Commission (ICMC) said, “Climate refugees also referred to as climate change refugees and climate migrants are individuals who have been displaced from their homes due to natural disasters and climate change. This includes floods, earthquakes, hurricanes, desertification, droughts, rising sea levels, and more. These events not only affect the safety of individuals, but can also cause food, water, and other long-term resource shortages that push people from their homes”. They also said, the term “climate migrant” is more accurate than climate change refugee because, much like internally displaced persons, climate migrants are not recognized as refugees under international refugee law. This means they do not have the same protections and rights when seeking asylum as people who have fled their home country to escape persecution based on religion, race, nationality, or political opinion."
-category: "Cry-of-the-Earth"
+category: "Cry-of-the-Poor"
 cover_image: "/images/posts/Climate-Migrants.webp"
 lat_lng: [36.7783, -119.4179]
 news_category: "Our Planet Earth Article"
