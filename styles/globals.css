@@ -150,25 +150,8 @@ ol {
   -ms-overflow-style: none;
 }
 
-/* CSS for the Globe */
+/* CSS for the MapBox Globe */
 
-svg .country:hover {
-  stroke: black;
-  stroke-width: 1px;
-  cursor: pointer;
-}
-
-svg .countryLabel {
-  font-size: 0.5rem;
-  font-weight: 700;
-  fill: black;
-  text-anchor: middle;
-  cursor: pointer;
-}
-
-.tooltip-container {
-  position: absolute;
-  top: 85%;
-  left: 5%;
-  z-index: 1; /* Ensure the tooltip is above the SVG */
+.map-container {
+  height: 700px;
 }
