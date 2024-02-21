@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { features } from "../OurPlanetEarthMarkers";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_API_KEY;
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MY_MAPBOX_API_TOKEN;
 
 const MapBoxGlobe = () => {
   const mapContainer = useRef(null);
