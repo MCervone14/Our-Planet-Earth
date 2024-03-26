@@ -1,7 +1,9 @@
 import { useRef, useState, useEffect } from "react";
 import { features } from "../OurPlanetEarthMarkers";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MY_MAPBOX_API_TOKEN;
+// mapboxgl.accessToken = process.env.NEXT_PUBLIC_MY_MAPBOX_API_TOKEN;
+mapboxgl.accessToken =
+  "pk.eyJ1IjoibWdjMjMiLCJhIjoiY2xzdjllOWc4MmRjbTJrbXIxMWt4YW9yNCJ9.UK5CPZT6cjgUzl_4MEHh_Q";
 
 const MapBoxGlobe = () => {
   const mapContainer = useRef(null);
@@ -53,6 +55,32 @@ const MapBoxGlobe = () => {
             "text-offset": [0, 1.25],
             "text-anchor": "top",
           },
+        });
+        // Add a click event listener to the map
+        map.current.on("click", "points", (e) => {
+          const coordinates = e.features[0].geometry.coordinates.slice();
+          const title = e.features[0].properties.title;
+
+          // Ensure that if the map is zoomed out, the popup appears over the correct feature
+          while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+          }
+
+          // Create a popup
+          new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(`<h3>${title}</h3>`)
+            .addTo(map.current);
+        });
+
+        // Change the cursor to a pointer when the mouse is over the layer
+        map.current.on("mouseenter", "points", () => {
+          map.current.getCanvas().style.cursor = "pointer";
+        });
+
+        // Change it back to a pointer when it leaves
+        map.current.on("mouseleave", "points", () => {
+          map.current.getCanvas().style.cursor = "";
         });
       });
     });
