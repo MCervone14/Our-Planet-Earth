@@ -13,7 +13,7 @@ news_category: "Our Planet Earth Article"
 
 **Photo Credit: Sycamore Land Trust’s Sam Shine Foundation Preserve in northwest Monroe County, Indiana**
 
-Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., Nicole Cervone-Gish, Ed. M.S., and Michael Cervone, M.J., D.J.
+Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., Nicole Cervone-Gish, Ed. M.S.
 
 Our Planet Earth
 
@@ -61,4 +61,4 @@ Another option is to get involved in a Community Supported Agricultural Farm lik
 > “We are the first generation to feel the impact of climate change and the last generation that can do something about it.”
 > — Barack Obama
 
-_Dr. Tom Cervone is a deacon and ecologist in Evansville, Indiana. He graduated from St. Bonaventure, a Franciscan University. Sister Maureen Houlihan D.C. is a member of the “Care of Earth” Committee - St. Louise Province of the Daughters of Charity USA and member of Seton Harvest Farm, a Community Supported Agriculture Farm that grows all natural produce for shareholders and the poor. Nicole Cervone-Gish, Ed. MS. is an English Language Learner teacher, who lives in Evansville, Indiana with her family, and teaches at Holy Spirit Catholic School. Michael Cervone, MJ, DJ is a designer of websites who also lives in Evansville, Indiana._
+_Dr. Tom Cervone is a deacon and ecologist in Evansville, Indiana. He graduated from St. Bonaventure, a Franciscan University. Sister Maureen Houlihan D.C. is a member of the “Care of Earth” Committee - St. Louise Province of the Daughters of Charity USA and member of Seton Harvest Farm, a Community Supported Agriculture Farm that grows all natural produce for shareholders and the poor. Nicole Cervone-Gish, Ed. MS. is an English Language Learner teacher, who lives in Evansville, Indiana with her family, and teaches at Holy Spirit Catholic School._
