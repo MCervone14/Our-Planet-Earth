@@ -11,9 +11,10 @@ lat_lng: [38.3729, -85.9886]
 news_category: "Our Planet Earth Article"
 ---
 
-**Photo Credit: Sycamore Land Trust’s Sam Shine Foundation Preserve in northwest Monroe County, IN**
+**Photo Credit: Sycamore Land Trust’s Sam Shine Foundation Preserve in northwest Monroe County, Indiana**
 
 Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., Nicole Cervone-Gish, Ed. M.S., and Michael Cervone, M.J., D.J.
+
 Our Planet Earth
 
 **Author’s note:** _This website encourages, inspires, and informs citizens to act now, and to practice ecological principles in our journey “On Care for Our Common Home.”_
