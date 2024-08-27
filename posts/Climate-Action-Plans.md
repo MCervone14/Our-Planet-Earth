@@ -69,9 +69,9 @@ _“Frankly Speaking: A Non-Whitewashed, &#39;First-Hand&#39; Account of No-Till
 <iframe width="800" height="500" src="https://www.youtube.com/embed/WSJTKyDuI6I?si=zhC1CvNXKHQfZqEi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > Quote:
-> ““We can only preserve the planet for generations to come if companies and governments act together to build a clear path towards carbon neutrality.”
+> “We can only preserve the planet for generations to come if companies and governments act together to build a clear path towards carbon neutrality.”
 > — Gilbert Ghostine, CEO of Firmenich
 
-_Dr. Tom Cervone is a deacon and ecologist in Evansville, Indiana. He graduated from St. Bonaventure, a Franciscan University. Sister Maureen Houlihan D.C. is a member of the “Care of Earth” Committee - St. Louise Province of the Daughters of Charity USA and member of Seton Harvest Farm, a Community Supported Agriculture Farm that grows all natural produce for shareholders and the poor. Nicole Cervone-Gish, Ed. MS. is an English Language Learner teacher, who lives in Evansville, Indiana with her family, and teaches at Holy Spirit Catholic School._
+_Tom Cervone, Ph.D. is a deacon, ecologist, and member of Seton Harvest and Sycamore Land Trust. Sister Maureen Houlihan D.C. is a member of the “Care of Earth” Committee - St. Louise Province of the Daughters of Charity USA and Seton Harvest Farm. Nicole Cervone-Gish, Ed. MS. is a teacher at Holy Spirit Catholic School. Michael Cervone, BS. is a website designer._
 
 Comments about this article/website may be directed to ourplanetearth.eco@gmail.com Thank you!
