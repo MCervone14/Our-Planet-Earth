@@ -7,9 +7,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [Purpose](#purpose)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
-
 
 
 
@@ -31,11 +29,6 @@ Our Planet Earth was my first project into front-end web development. It was an 
 ## Purpose
 
 Our Planet Earth was made to bring awareness to climate change through blog posts. We promote clean air, clean water, and healthy soils; a greener world; sustainable practices; renewable energy; and conservation of worldwide ecosystems.
-
-## Contact
-
-- [Github](https://github.com/MCervone14)
-- [My Portfolio](https://github.com/MCervone14/Portfolio-Website) 
 
 ## Acknowledgements
 
