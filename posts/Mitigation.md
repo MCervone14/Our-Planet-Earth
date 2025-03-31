@@ -70,7 +70,7 @@ Sogaard Jorgensen, 4/29/2014, “Ten Eco-Commandments, Evolution and Sustainabil
 
 **Short Video on Mitigation:**
 
-<iframe width="800" height="500" src="https://www.youtube.com/embed/TkI6fs7l_lM?si=wpFSNyNE9MNCnfQq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="500" src="https://www.youtube.com/embed/65Y9KgH6RGM?si=g51IhNC7Gxg8TSAi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > **Quote**: “When we look back at the end of our lives, each of us will have to answer that all
 > important question. Did I leave the natural world a better place than I found it or did I only take
