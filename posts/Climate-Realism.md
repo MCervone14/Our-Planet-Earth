@@ -43,8 +43,7 @@ satellites that monitor carbon dioxide levels on Earth, and if so, WHY?
 
 We do know that we cannot continue to use our atmosphere and oceans as open sewers, including the
 decimation of our forests, especially rain forests. You’ve heard these words for many decades, but there’s really
-an urgency now to save this planet. Dr. Margaret Chan, the former World Health Organization Director-
-General, said, “**Climate change is the greatest global health threat of the 21 st century**.”
+an urgency now to save this planet. Dr. Margaret Chan, the former World Health Organization Director-General, said, “**Climate change is the greatest global health threat of the 21 st century**.”
 
 So do not fall for the distraction by climate realists, which will only exacerbate the situation to a point
 of no return. We do not want to give up on our planet and its people, many of whom are our loved ones

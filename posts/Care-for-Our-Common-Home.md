@@ -24,8 +24,7 @@ Tom Cervone, Ph.D., Maureen Houlihan, D.C., Nicole Cervone-Gish, M.S., and Micha
 What does “Care for Our Common Home” mean to you? We know if we don’t care for things, they may go
 away or be changed from what we consider normal. Is this what has happened to our precious planet? Even
 back during the time of St. Bonaventure and St. Francis of Assisi in the 13th century, Care for Our Common
-Home was important. In the 17th century, St. Kateri Tekakwitha believed in Care for Our Common Home with
-St. Francis of Assisi. Both are our “patron saints” of the environment and ecology.
+Home was important. In the 17th century, St. Kateri Tekakwitha believed in Care for Our Common Home too. Both are our “patron saints” of the environment and ecology.
 
 In the 20th century, St. Pope John Paul II addressed the concept of &quot;Care for Creation&quot; for more than 27
 years. He consistently spoke about the relationship between humanity, the environment, and God&#39;s creation. [A
