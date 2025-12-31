@@ -44,7 +44,7 @@ home, another spring went dry, and another spring was tainted with high salt lev
 Such happenings are common in many states that have mining and oil wells, where today, some people need to
 travel many miles to get fresh water to drink, cook, and wash. Some springs and creeks have become so tainted
 by mine acid drainage that they’re colored yellow with very low pH levels, and some are devoid of life. Other
-freshwater streams have sewage with Escherichia coli and other bacteria in them, or possibly even have PCBs
+freshwater streams have sewage with *Escherichia coli* and other bacteria in them, or possibly even have PCBs
 (Polychlorinated Biphenyls) from various sources. And if you live near oil wells, it is not uncommon to open
 your kitchen faucet and have colored water that smells like rotten eggs. Do you think these stories say
 something? Also, [please review](https://insideclimatenews.org/news/19122025/pennsylvania-oil-and-gas-waste-tracking-logistical-mess/).
@@ -61,7 +61,7 @@ or us?
 
 It is imperative that we have a “change of mind” in regards to our freshwater and what we do with our wastes.
 Our freshwater must be protected **from all harm** and be of a quality suitable for people to drink. One person
-presented the thought about people having better fcreshwater by simply working with water companies and
+presented the thought about people having better water by simply working with water companies and
 paying more. Maybe they can upgrade their wastewater treatment plants with more money, which, in turn, can
 make our drinking water better.
 
