@@ -54,22 +54,22 @@ into a commercial product that replaces plastic, the fungal product can, under t
 about 45 days and be reused. We can’t do this with plastics, which are causing so many problems for our
 environment and health. Some examples of what fungi can do are:
 
-- [x] Decompose and cycle/recycle nutrients for plants to grow and help in nitrogen fixation and phosphorus
+- Decompose and cycle/recycle nutrients for plants to grow and help in nitrogen fixation and phosphorus
 mobilization.
-- [x] Digest dead plant material and help regulate the climate. Together, plants and fungi can remove CO 2 from
+-  Digest dead plant material and help regulate the climate. Together, plants and fungi can remove CO 2 from
 the atmosphere, which improves soil fertility and can help reduce excess carbon from human activities such
 as driving cars, flying in airplanes, and more. A study (https:/peerj.com/preprints/789v1/) shows that
 biodiverse soils are able to capture up to 10 tons of CO 2 per hectare per year.
-- [x] Be eaten by animals for nutrients to obtain vitamins, fiber, and minerals such as potassium, phosphorus,
+-  Be eaten by animals for nutrients to obtain vitamins, fiber, and minerals such as potassium, phosphorus,
 calcium, and even some protein.
-- [x] Be grown on agricultural waste in light or dark environments with some moisture, incorporating nutrients
+-  Be grown on agricultural waste in light or dark environments with some moisture, incorporating nutrients
 from the waste.
-- [x] Be used for its medicinal properties to help prevent diseases and boost our immune system.
-- [x] Degrade some pollutants from the environment, such as plastics, other petroleum-based products,
+-  Be used for its medicinal properties to help prevent diseases and boost our immune system.
+-  Degrade some pollutants from the environment, such as plastics, other petroleum-based products,
 pharmaceuticals, oil, and more.
-- [x] Be used in ecosystem restoration through reforestation of degraded soils.
-- [x] Be used as pest control, especially against arthropods and nematodes.
-- [x] Be used as mycelium-based products to replace unsustainable plastics, synthetics, and animal-based
+-  Be used in ecosystem restoration through reforestation of degraded soils.
+-  Be used as pest control, especially against arthropods and nematodes.
+-  Be used as mycelium-based products to replace unsustainable plastics, synthetics, and animal-based
 products. Examples include packaging, clothes, shoes, sustainable leather, skincare products, and others.
 
 For more information about fungal mycelium products, please see Mylo, Ecovative Design. MycoWorks, Bolt
