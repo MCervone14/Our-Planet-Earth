@@ -12,7 +12,7 @@ lat_lng: []
 news_category: "Our Planet Earth Article"
 ---
 
-Deacon Tom Cervone, Ph.D., Sister Maureen Houlihan, D.C., and Nicole Cervone-Gish, Ed. M.S.
+Tom Cervone, Ph.D., and Michael Cervone, B.S.
 
 **Our Planet Earth**
 
