@@ -9,10 +9,12 @@ heart rate to normal levels? When you have a fever, does your body work to lower
 new red blood cells? Equilibrium is a state of balance or stability in which opposing forces, influences, or
 actions cancel each other out. In this condition, a system remains unchanged and experiences no net alteration."
 category: "Ecological-Education"
-cover_image: "/images/posts/Ecological-Balance-in-Our-World.jpg"
+cover_image: "/images/posts/Ecological-Balance-in-Our-World.jpeg"
 lat_lng: []
 news_category: "Our Planet Earth Article"
 ---
+
+**Photo Credit**: [Law and Other Things](https://lawandotherthings.com/nature-vs-necessity-decoding-the-vanashakti-balancing-test/)
 
 By Tom Cervone, Ph.D. and Michael Cervone, B.S.
 
